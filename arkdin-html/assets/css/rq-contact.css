@@ -1,0 +1,435 @@
+/* ============================================================
+   RQ Contact Section — "We're Here to Help You Breathe Better"
+   ============================================================ */
+
+.rq-contact {
+  position: relative;
+  padding: 110px 0 120px;
+  background: #ffffff;
+  overflow: hidden;
+  font-family: 'Outfit', 'Segoe UI', sans-serif;
+}
+
+/* Right-side photographic background (AC unit) fading into white */
+.rq-contact-bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 46%;
+  background-image: url("../img/how_to_work_ac_unit.jpg");
+  background-size: cover;
+  background-position: center;
+  pointer-events: none;
+}
+
+.rq-contact-bg::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to right,
+    #ffffff 0%,
+    rgba(255, 255, 255, 0.85) 22%,
+    rgba(255, 255, 255, 0.25) 60%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.rq-contact .container {
+  position: relative;
+  z-index: 1;
+}
+
+.rq-contact-grid {
+  display: grid;
+  grid-template-columns: 1.02fr 1fr;
+  gap: 70px;
+  align-items: center;
+}
+
+/* ---------------- Left : Info ---------------- */
+
+.rq-contact-eyebrow {
+  margin: 0 0 14px;
+  color: #ff5a00;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  font-family: 'Outfit', 'Segoe UI', sans-serif;
+}
+
+.rq-contact-title {
+  margin: 0 0 22px;
+  color: #0e2a47;
+  font-size: 42px;
+  font-weight: 800;
+  line-height: 1.22;
+}
+
+.rq-contact-underline {
+  width: 72px;
+  height: 4px;
+  border-radius: 4px;
+  background: #ff5a00;
+  margin-bottom: 26px;
+}
+
+.rq-contact-desc {
+  margin: 0 0 34px;
+  max-width: 520px;
+  color: #5b6b7b;
+  font-size: 15px;
+  line-height: 1.85;
+}
+
+.rq-contact-desc strong {
+  color: #33475b;
+  font-weight: 600;
+}
+
+/* Info cards */
+.rq-contact-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 22px;
+  margin-bottom: 34px;
+}
+
+.rq-contact-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  background: #ffffff;
+  border: 1px solid #eef1f6;
+  border-radius: 14px;
+  padding: 22px 20px;
+  box-shadow: 0 8px 26px rgba(14, 42, 71, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.rq-contact-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(255, 90, 0, 0.35);
+  box-shadow: 0 16px 34px rgba(14, 42, 71, 0.12);
+}
+
+.rq-contact-card-icon {
+  flex: 0 0 auto;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: linear-gradient(145deg, #16375c, #0e2a47);
+  color: #ff5a00;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  box-shadow: 0 8px 18px rgba(14, 42, 71, 0.25);
+}
+
+.rq-contact-card h3 {
+  margin: 4px 0 9px;
+  color: #0e2a47;
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+
+.rq-contact-card p {
+  margin: 0;
+  color: #66788a;
+  font-size: 14.5px;
+  line-height: 1.7;
+}
+
+.rq-contact-card p a {
+  color: #5b6b7b;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.rq-contact-card p a:hover {
+  color: #ff5a00;
+}
+
+/* Follow us */
+.rq-contact-follow {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 28px;
+}
+
+.rq-contact-follow > span {
+  color: #0e2a47;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.rq-contact-socials {
+  display: flex;
+  gap: 10px;
+}
+
+.rq-contact-socials a {
+  width: 38px;
+  height: 38px;
+  border-radius: 9px;
+  background: #0e2a47;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  text-decoration: none;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.rq-contact-socials a:hover {
+  background: #ff5a00;
+  transform: translateY(-2px);
+}
+
+/* Trust banner */
+.rq-contact-trust {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: #eef1f6;
+  border-radius: 12px;
+  padding: 18px 22px;
+}
+
+.rq-contact-trust-icon {
+  flex: 0 0 auto;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0e2a47;
+  font-size: 26px;
+}
+
+.rq-contact-trust p {
+  margin: 0;
+  color: #5b6b7b;
+  font-size: 13.5px;
+  line-height: 1.6;
+}
+
+.rq-contact-trust strong {
+  color: #0e2a47;
+  font-weight: 700;
+}
+
+/* ---------------- Right : Appointment Card ---------------- */
+
+.rq-contact-form-wrap {
+  position: relative;
+}
+
+.rq-contact-form-card {
+  position: relative;
+  background: #0e2a47;
+  border-radius: 20px;
+  padding: 38px 36px 34px;
+  box-shadow: 0 30px 60px rgba(14, 42, 71, 0.28);
+}
+
+/* decorative dot pattern */
+.rq-contact-dots {
+  position: absolute;
+  top: 26px;
+  right: 28px;
+  width: 92px;
+  height: 58px;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.35) 1.6px, transparent 1.6px);
+  background-size: 13px 13px;
+  pointer-events: none;
+}
+
+.rq-contact-form-head {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 26px;
+}
+
+.rq-contact-form-icon {
+  flex: 0 0 auto;
+  color: #ff5a00;
+  font-size: 40px;
+  line-height: 1;
+}
+
+.rq-contact-form-head h3 {
+  margin: 0 0 6px;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.rq-contact-form-head p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 14px;
+}
+
+/* Form fields */
+.rq-contact-form-card input,
+.rq-contact-form-card select,
+.rq-contact-form-card textarea {
+  display: block;
+  width: 100%;
+  background: #ffffff;
+  border: none;
+  border-radius: 10px;
+  padding: 17px 18px;
+  margin-bottom: 16px;
+  color: #0e2a47;
+  font-size: 14px;
+  font-family: inherit;
+  outline: none;
+  transition: box-shadow 0.3s ease;
+}
+
+.rq-contact-form-card input::placeholder,
+.rq-contact-form-card textarea::placeholder {
+  color: #93a1af;
+}
+
+.rq-contact-form-card input:focus,
+.rq-contact-form-card select:focus,
+.rq-contact-form-card textarea:focus {
+  box-shadow: 0 0 0 3px rgba(255, 90, 0, 0.35);
+}
+
+.rq-form-row-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.rq-form-row-2 input {
+  margin-bottom: 16px;
+}
+
+.rq-contact-form-card select {
+  appearance: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+  color: #93a1af;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%235b6b7b' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 18px center;
+  padding-right: 44px;
+}
+
+.rq-contact-form-card textarea {
+  min-height: 170px;
+  resize: vertical;
+}
+
+/* Submit button */
+.rq-contact-submit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: 100%;
+  background: #ff5a00;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  padding: 19px 20px;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.rq-contact-submit:hover {
+  background: #e04e00;
+  transform: translateY(-2px);
+}
+
+.rq-contact-submit svg {
+  transition: transform 0.3s ease;
+}
+
+.rq-contact-submit:hover svg {
+  transform: translateX(4px);
+}
+
+/* Secure note */
+.rq-form-note {
+  margin: 18px 0 0;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 13px;
+}
+
+.rq-form-note i {
+  margin-right: 6px;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+/* ---------------- Responsive ---------------- */
+
+@media (max-width: 1199px) {
+  .rq-contact-grid {
+    gap: 45px;
+  }
+
+  .rq-contact-title {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 991px) {
+  .rq-contact {
+    padding: 80px 0;
+  }
+
+  .rq-contact-bg {
+    width: 100%;
+    opacity: 0.08;
+  }
+
+  .rq-contact-bg::after {
+    display: none;
+  }
+
+  .rq-contact-grid {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+}
+
+@media (max-width: 575px) {
+  .rq-contact-title {
+    font-size: 29px;
+  }
+
+  .rq-contact-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .rq-form-row-2 {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .rq-contact-form-card {
+    padding: 30px 22px 28px;
+  }
+
+  .rq-contact-dots {
+    display: none;
+  }
+}

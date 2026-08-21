@@ -4,37 +4,35 @@
 
 - Workspace: arkdin-air-conditioning-services-php-template-2026-08-14-03-12-21-utc
 - Technology: Not yet detected
-- Active file at refresh: None
-- Local code graph: 19 files · 8 edges · 0 matched flows
-- Refreshed: 2026-08-21T08:18:19.957Z
+- Active file at refresh: arkdin-html/contact.html
+- Local code graph: 18 files · 6 edges · 0 matched flows
+- Refreshed: 2026-08-21T11:50:42.143Z
 
 
 
 ## Recently edited files
-- arkdin-html/projects.html
-- arkdin-html/service-details.html
-- arkdin-html/project-details.html
-- arkdin-html/home-v2.html
-- arkdin-html/service.html
-- arkdin-html/contact.html
 - arkdin-html/about-us.html
+- arkdin-html/contact.html
+- arkdin-html/assets/css/rq-contact.css
 - arkdin-html/index.html
 - arkdin-html/assets/css/style.css
+- arkdin-html/projects.html
+- arkdin-html/service-details.html
+- arkdin-html/service.html
 - arkdin-html/assets/css/appreciation-section.css
 - arkdin-html/assets/img/technician-maintenance.svg
 - arkdin-html/assets/img/jsw-appreciation-letter.svg
 - .vscode/settings.json
 
 ## High-value project files
-- arkdin-html/projects.html
-- arkdin-html/service-details.html
-- arkdin-html/project-details.html
-- arkdin-html/home-v2.html
-- arkdin-html/service.html
 - arkdin-html/contact.html
 - arkdin-html/about-us.html
+- arkdin-html/assets/css/rq-contact.css
 - arkdin-html/index.html
 - arkdin-html/assets/css/style.css
+- arkdin-html/projects.html
+- arkdin-html/service-details.html
+- arkdin-html/service.html
 - arkdin-html/assets/css/appreciation-section.css
 - arkdin-html/assets/img/technician-maintenance.svg
 - arkdin-html/assets/img/jsw-appreciation-letter.svg
@@ -46,6 +44,7 @@
 - .clinerules/90-technomantra-selected-agent.md
 - .clinerules/technomantra-developer-learning.md
 - .clinerules/technomantra-team-learning.md
+- .vscode/technomantra-project.json
 - arkdin-html/assets/css/animate.css
 - arkdin-html/assets/css/bootstrap.min.css
 - arkdin-html/assets/css/fontawesome.min.css
