@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 950" width="100%" height="100%">
+  <defs>
+    <filter id="subtle-shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+  
+  <!-- Certificate Base Paper -->
+  <rect x="0" y="0" width="700" height="950" rx="8" fill="#ffffff"/>
+  
+  <!-- Outer Orange / Gold Border -->
+  <rect x="22" y="22" width="656" height="906" rx="16" fill="none" stroke="#f26522" stroke-width="2.5"/>
+  <!-- Inner Subtle Border -->
+  <rect x="28" y="28" width="644" height="894" rx="12" fill="none" stroke="#e0e6ed" stroke-width="1"/>
+
+  <!-- Top Left: JSW Logo -->
+  <g transform="translate(60, 60)">
+    <path d="M0,22 L18,0 L36,0 L20,22 Z" fill="#003399"/>
+    <path d="M26,22 L44,0 L62,0 L46,22 Z" fill="#e31e24"/>
+    <path d="M52,22 L70,0 L88,0 L72,22 Z" fill="#003399"/>
+    <text x="96" y="20" font-family="'Poppins', 'Segoe UI', Arial, sans-serif" font-weight="900" font-size="28" fill="#003399" letter-spacing="1">JSW</text>
+  </g>
+
+  <!-- Top Right: JSW Cement Address Header -->
+  <g transform="translate(420, 60)" font-family="'Segoe UI', Arial, sans-serif" font-size="9.5" fill="#444444" line-height="1.3">
+    <!-- Small JSW Header logo -->
+    <g transform="translate(0, -5) scale(0.6)">
+      <path d="M0,18 L14,0 L28,0 L16,18 Z" fill="#003399"/>
+      <path d="M20,18 L34,0 L48,0 L36,18 Z" fill="#e31e24"/>
+      <path d="M40,18 L54,0 L68,0 L56,18 Z" fill="#003399"/>
+      <text x="74" y="16" font-family="'Poppins', 'Segoe UI', Arial, sans-serif" font-weight="900" font-size="20" fill="#003399">JSW</text>
+    </g>
+    <text x="72" y="8" font-weight="bold" font-size="12" fill="#111111">JSW Cement Limited</text>
+    <text x="0" y="25">Village - Khar Karavi, P.O - Gadeb,</text>
+    <text x="0" y="38">Taluka-Pen, Dist. Raigad,</text>
+    <text x="0" y="51">Maharashtra - 402 107.</text>
+    <text x="0" y="64">CIN - U26957MH2006PLC160629</text>
+    <text x="0" y="77">Board : +91-2143-277-601/ 2/3</text>
+    <text x="0" y="90">Fax: +91-2143 - 277-725</text>
+  </g>
+
+  <!-- Letter Body Content -->
+  <g transform="translate(65, 195)" font-family="'Segoe UI', Arial, sans-serif" fill="#222222" font-size="13" line-height="1.5">
+    <text x="0" y="0">To,</text>
+    <text x="0" y="22" font-weight="bold">RQ Air Conditioning,</text>
+    <text x="0" y="40">Advant Corner, Flat 101, Plot 103,</text>
+    <text x="0" y="58">Sec 03, Karanjade, Panvel,</text>
+    <text x="0" y="76">Raigad MH – 410206.</text>
+
+    <!-- Subject with Underline -->
+    <text x="70" y="130" font-weight="bold" font-size="13.5" fill="#111111" text-decoration="underline">Subject: Appreciation for Service provided for AC Maintenance.</text>
+    <line x1="70" y1="134" x2="490" y2="134" stroke="#111111" stroke-width="1"/>
+
+    <text x="0" y="175">Dear Team,</text>
+
+    <!-- Paragraph 1 -->
+    <text x="50" y="210">We would like to express our satisfaction on unit performance & quality service provided by</text>
+    <text x="0" y="228" font-weight="bold" text-decoration="underline">RQ Air Conditioning Team.</text>
+    <line x1="0" y1="231" x2="175" y2="231" stroke="#111111" stroke-width="1"/>
+
+    <!-- Paragraph 2 -->
+    <text x="0" y="265">We appreciate positive attitude, dedication and promptness in providing services to us.</text>
+
+    <!-- Paragraph 3 -->
+    <text x="0" y="302">We also appreciate the response and complaint resolution of your team. <tspan font-weight="bold" text-decoration="underline">RQ AIR CONDITIONING</tspan></text>
+    <text x="0" y="322"><tspan font-weight="bold" text-decoration="underline">Team</tspan> should continue to maintain same quality of service in future.</text>
+    <line x1="392" y1="305" x2="550" y2="305" stroke="#111111" stroke-width="1"/>
+    <line x1="0" y1="325" x2="38" y2="325" stroke="#111111" stroke-width="1"/>
+
+    <!-- Sign off -->
+    <text x="0" y="380">Thanking You,</text>
+
+    <!-- Handwritten Signature simulation in blue -->
+    <path d="M5,425 Q20,395 32,410 Q45,430 38,445 Q50,400 65,415 Q80,430 95,405" fill="none" stroke="#0044cc" stroke-width="2" stroke-linecap="round"/>
+    <path d="M12,438 L85,418" fill="none" stroke="#0044cc" stroke-width="1.5"/>
+
+    <text x="0" y="465">Yours Sincerely</text>
+    <text x="0" y="495" font-weight="bold">For JSW Cement Ltd.</text>
+  </g>
+
+  <!-- Bottom Footer Section -->
+  <g transform="translate(65, 780)">
+    <!-- Jindal Logo -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="36" height="36" rx="6" fill="#003399"/>
+      <text x="8" y="25" font-family="'Arial Black', sans-serif" font-weight="900" font-size="22" fill="#ffffff">J</text>
+      <text x="2" y="48" font-family="'Segoe UI', Arial, sans-serif" font-size="8" font-weight="bold" fill="#003399">JINDAL</text>
+      <text x="42" y="38" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#444444">Part of O. P. Jindal Group</text>
+    </g>
+
+    <!-- Bottom Right Address -->
+    <g transform="translate(380, 0)" font-family="'Segoe UI', Arial, sans-serif" font-size="9" fill="#444444">
+      <text x="0" y="0" font-weight="bold" fill="#111111">Regd. Office: <tspan font-weight="normal">JSW Centre,</tspan></text>
+      <text x="0" y="14">Bandra Kurla Complex,</text>
+      <text x="0" y="28">Bandra (E), Mumbai - 400 051</text>
+      <text x="0" y="42"><tspan font-weight="bold">Phone :</tspan> +91 22 42861000</text>
+      <text x="0" y="56"><tspan font-weight="bold">Fax :</tspan> +91 22 42863000</text>
+    </g>
+  </g>
+</svg>

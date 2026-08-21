@@ -1,0 +1,544 @@
+/* ========================================================
+   CLIENT APPRECIATION SECTION STYLES (MATCH REFERENCE EXACT)
+   ======================================================== */
+.rq-appreciation-wrapper {
+  background-color: #f7f9fc;
+  position: relative;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+  color: #333333;
+  padding: 80px 0 0 0;
+}
+
+.rq-appreciation-container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+  z-index: 2;
+}
+
+.rq-appreciation-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.rq-appreciation-left {
+  flex: 1 1 58%;
+  max-width: 58%;
+}
+
+.rq-appreciation-right {
+  flex: 1 1 38%;
+  max-width: 38%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+/* Section Header */
+.rq-appr-eyebrow {
+  font-size: 14px;
+  font-weight: 700;
+  color: #ff5e14;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+  display: inline-block;
+  position: relative;
+}
+.rq-appr-eyebrow::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: -6px;
+  width: 40px;
+  height: 3px;
+  background-color: #ff5e14;
+  border-radius: 2px;
+}
+
+.rq-appr-title {
+  font-size: 40px;
+  line-height: 1.25;
+  font-weight: 800;
+  color: #0b2239;
+  margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.rq-appr-title .text-orange {
+  color: #ff5e14;
+}
+
+/* Orange Divider with Dot */
+.rq-appr-divider {
+  display: flex;
+  align-items: center;
+  margin-bottom: 22px;
+}
+.rq-appr-divider .line {
+  height: 2px;
+  background-color: #ff5e14;
+  width: 140px;
+}
+.rq-appr-divider .dot {
+  width: 10px;
+  height: 10px;
+  border: 2px solid #ff5e14;
+  background-color: #ffffff;
+  border-radius: 50%;
+  margin-left: 6px;
+}
+
+.rq-appr-description {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #555555;
+  margin-bottom: 30px;
+  max-width: 650px;
+}
+
+/* 4 Feature Cards Grid */
+.rq-appr-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-bottom: 35px;
+}
+
+.rq-appr-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px 10px;
+  text-align: center;
+  box-shadow: 0 8px 24px rgba(11, 34, 57, 0.06);
+  border: 1px solid #edf2f7;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.rq-appr-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 28px rgba(11, 34, 57, 0.12);
+  border-color: #ff5e14;
+}
+
+.rq-appr-card-icon {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rq-appr-card-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.rq-appr-card-title {
+  font-size: 13.5px;
+  font-weight: 700;
+  color: #0b2239;
+  line-height: 1.35;
+  margin: 0;
+}
+
+/* Quote & Technician Card Area */
+.rq-appr-quote-row {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(11, 34, 57, 0.05);
+  border: 1px solid #edf2f7;
+  margin-bottom: 30px;
+}
+
+.rq-appr-tech-thumb {
+  flex: 0 0 240px;
+  width: 240px;
+  height: 180px;
+  border-radius: 14px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+.rq-appr-tech-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.rq-appr-quote-content {
+  flex: 1;
+  position: relative;
+}
+.rq-appr-quote-content .quote-icon {
+  font-size: 32px;
+  color: #ff5e14;
+  line-height: 1;
+  font-weight: 900;
+  margin-bottom: 6px;
+  font-family: serif;
+}
+.rq-appr-quote-content p {
+  font-size: 13.5px;
+  line-height: 1.6;
+  color: #444444;
+  margin-bottom: 12px;
+}
+.rq-appr-quote-author {
+  font-size: 14px;
+  font-weight: 700;
+  color: #0b2239;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.rq-appr-quote-author::before {
+  content: '–';
+  color: #ff5e14;
+  font-weight: bold;
+}
+
+/* Bottom CTA & Trust Badge Row */
+.rq-appr-bottom-cta-row {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.rq-appr-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 15px;
+  background-color: #0b2239;
+  color: #ffffff !important;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 12px 16px 12px 28px;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 20px rgba(11, 34, 57, 0.25);
+}
+.rq-appr-btn:hover {
+  background-color: #ff5e14;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(255, 94, 20, 0.35);
+}
+.rq-appr-btn-arrow {
+  width: 32px;
+  height: 32px;
+  background-color: #ff5e14;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+.rq-appr-btn:hover .rq-appr-btn-arrow {
+  background-color: #0b2239;
+}
+
+.rq-appr-trust-badge {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.rq-appr-trust-icon {
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+}
+.rq-appr-trust-text {
+  font-size: 13.5px;
+  line-height: 1.3;
+  color: #555555;
+}
+.rq-appr-trust-text strong {
+  display: block;
+  font-size: 14px;
+  color: #0b2239;
+  font-weight: 700;
+}
+
+/* Right Column: Certificate on Podium */
+.rq-appr-certificate-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 470px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Circular Podium Base */
+.rq-appr-podium-base {
+  position: absolute;
+  bottom: -20px;
+  width: 115%;
+  height: 80px;
+  background: radial-gradient(ellipse at center, #ffffff 0%, #e2e8f0 70%, #cbd5e1 100%);
+  border-radius: 50%;
+  border-bottom: 5px solid #ff5e14;
+  box-shadow: 0 20px 40px rgba(11, 34, 57, 0.15);
+  z-index: 1;
+}
+
+/* Certificate Card */
+.rq-appr-cert-card {
+  position: relative;
+  z-index: 2;
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 12px;
+  box-shadow: 0 25px 60px rgba(11, 34, 57, 0.18), 0 0 0 1px rgba(0, 0, 0, 0.04);
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.rq-appr-cert-inner-frame {
+  border: 2px solid #ff5e14;
+  border-radius: 18px;
+  padding: 24px 20px 20px 20px;
+  background: #ffffff;
+  position: relative;
+  min-height: 560px;
+}
+
+/* Ribbon Badge on top right */
+.rq-appr-ribbon-badge {
+  position: absolute;
+  top: -12px;
+  right: 25px;
+  width: 72px;
+  height: 90px;
+  background: linear-gradient(180deg, #1b3552 0%, #0b2239 100%);
+  border-radius: 4px 4px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 8px;
+  color: #ffffff;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+  z-index: 5;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%);
+}
+.rq-appr-ribbon-text {
+  font-size: 9px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.1;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+.rq-appr-ribbon-seal {
+  width: 42px;
+  height: 42px;
+  border: 2px dashed #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* Certificate Letter Content */
+.rq-cert-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #f0f0f0;
+  padding-bottom: 15px;
+}
+.rq-cert-logo-left {
+  font-size: 22px;
+  font-weight: 900;
+  font-style: italic;
+  color: #0b2239;
+  letter-spacing: -0.5px;
+}
+.rq-cert-logo-left span {
+  color: #e53e3e;
+}
+.rq-cert-company-info {
+  text-align: right;
+  font-size: 7.5px;
+  line-height: 1.35;
+  color: #444;
+  max-width: 170px;
+}
+.rq-cert-company-info strong {
+  font-size: 9px;
+  color: #0b2239;
+  display: block;
+}
+
+.rq-cert-recipient {
+  font-size: 9px;
+  line-height: 1.4;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.rq-cert-subject {
+  font-size: 9.5px;
+  font-weight: 700;
+  color: #0b2239;
+  text-decoration: underline;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.rq-cert-body {
+  font-size: 8.5px;
+  line-height: 1.55;
+  color: #444;
+  margin-bottom: 15px;
+}
+.rq-cert-body p {
+  margin-bottom: 8px;
+}
+.rq-cert-body strong {
+  color: #111;
+}
+
+.rq-cert-sign {
+  margin-top: 15px;
+  font-size: 8.5px;
+  color: #333;
+}
+.rq-cert-signature-img {
+  width: 45px;
+  height: auto;
+  margin: 4px 0;
+}
+
+.rq-cert-footer {
+  margin-top: 25px;
+  padding-top: 10px;
+  border-top: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-size: 7px;
+  color: #666;
+}
+.rq-cert-footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-weight: 700;
+  color: #0b2239;
+}
+.rq-cert-footer-address {
+  text-align: right;
+  line-height: 1.3;
+}
+
+/* Bottom Blue Bar with 3 Value Propositions */
+.rq-appr-bottom-bar {
+  background-color: #0b2239;
+  border-radius: 40px 40px 0 0;
+  padding: 22px 30px;
+  margin-top: 30px;
+  position: relative;
+  z-index: 3;
+  box-shadow: 0 -10px 30px rgba(11, 34, 57, 0.15);
+}
+
+.rq-appr-bottom-bar-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.rq-appr-bar-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.rq-appr-bar-item svg {
+  width: 28px;
+  height: 28px;
+  stroke: #ffffff;
+}
+
+.rq-appr-bar-divider {
+  width: 1px;
+  height: 24px;
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+/* Responsive adjustments */
+@media (max-width: 1199px) {
+  .rq-appreciation-left {
+    flex: 1 1 55%;
+    max-width: 55%;
+  }
+  .rq-appreciation-right {
+    flex: 1 1 41%;
+    max-width: 41%;
+  }
+  .rq-appr-title {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 991px) {
+  .rq-appreciation-row {
+    flex-direction: column;
+  }
+  .rq-appreciation-left,
+  .rq-appreciation-right {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+  .rq-appr-cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .rq-appr-bottom-bar-items {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .rq-appr-bar-divider {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .rq-appr-title {
+    font-size: 26px;
+  }
+  .rq-appr-quote-row {
+    flex-direction: column;
+  }
+  .rq-appr-tech-thumb {
+    width: 100%;
+    height: 200px;
+  }
+  .rq-appr-cards-grid {
+    grid-template-columns: 1fr;
+  }
+}

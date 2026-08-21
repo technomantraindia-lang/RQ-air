@@ -1,0 +1,193 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 480" width="100%" height="100%">
+  <defs>
+    <linearGradient id="wallBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eceff1"/>
+      <stop offset="100%" stop-color="#cfd8dc"/>
+    </linearGradient>
+    <linearGradient id="acMetal" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e2e8f0"/>
+      <stop offset="50%" stop-color="#cbd5e1"/>
+      <stop offset="100%" stop-color="#94a3b8"/>
+    </linearGradient>
+    <linearGradient id="darkMetal" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#334155"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="copper" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d97706"/>
+      <stop offset="50%" stop-color="#b45309"/>
+      <stop offset="100%" stop-color="#78350f"/>
+    </linearGradient>
+    <linearGradient id="shirtGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a8a"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d49a6a"/>
+      <stop offset="100%" stop-color="#b07345"/>
+    </linearGradient>
+    <linearGradient id="helmetGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="85%" stop-color="#f1f5f9"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
+    </linearGradient>
+    <filter id="boxShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0f172a" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background / Facility wall -->
+  <rect width="600" height="480" fill="url(#wallBg)"/>
+  
+  <!-- Industrial ceiling & beam structure in background -->
+  <rect x="0" y="0" width="600" height="45" fill="#b0bec5" opacity="0.6"/>
+  <line x1="0" y1="45" x2="600" y2="45" stroke="#78909c" stroke-width="3"/>
+  <rect x="80" y="0" width="25" height="45" fill="#90a4ae"/>
+  <rect x="320" y="0" width="25" height="45" fill="#90a4ae"/>
+  <rect x="520" y="0" width="25" height="45" fill="#90a4ae"/>
+
+  <!-- AC Unit Background Cabinet (Large industrial condenser unit) -->
+  <g transform="translate(180, 50)" filter="url(#boxShadow)">
+    <rect x="0" y="0" width="400" height="400" rx="6" fill="url(#acMetal)" stroke="#64748b" stroke-width="3"/>
+    
+    <!-- Louver vents on right side of cabinet -->
+    <g fill="#475569" opacity="0.4">
+      <rect x="260" y="30" width="120" height="6" rx="2"/>
+      <rect x="260" y="45" width="120" height="6" rx="2"/>
+      <rect x="260" y="60" width="120" height="6" rx="2"/>
+      <rect x="260" y="75" width="120" height="6" rx="2"/>
+      <rect x="260" y="90" width="120" height="6" rx="2"/>
+      <rect x="260" y="105" width="120" height="6" rx="2"/>
+      <rect x="260" y="120" width="120" height="6" rx="2"/>
+      <rect x="260" y="135" width="120" height="6" rx="2"/>
+      <rect x="260" y="150" width="120" height="6" rx="2"/>
+      <rect x="260" y="165" width="120" height="6" rx="2"/>
+      <rect x="260" y="180" width="120" height="6" rx="2"/>
+      <rect x="260" y="195" width="120" height="6" rx="2"/>
+      <rect x="260" y="210" width="120" height="6" rx="2"/>
+      <rect x="260" y="225" width="120" height="6" rx="2"/>
+      <rect x="260" y="240" width="120" height="6" rx="2"/>
+      <rect x="260" y="255" width="120" height="6" rx="2"/>
+      <rect x="260" y="270" width="120" height="6" rx="2"/>
+      <rect x="260" y="285" width="120" height="6" rx="2"/>
+      <rect x="260" y="300" width="120" height="6" rx="2"/>
+      <rect x="260" y="315" width="120" height="6" rx="2"/>
+      <rect x="260" y="330" width="120" height="6" rx="2"/>
+      <rect x="260" y="345" width="120" height="6" rx="2"/>
+      <rect x="260" y="360" width="120" height="6" rx="2"/>
+    </g>
+
+    <!-- Open Maintenance Electrical Compartment Box -->
+    <rect x="15" y="20" width="225" height="360" rx="4" fill="url(#darkMetal)" stroke="#0f172a" stroke-width="2"/>
+    
+    <!-- Condenser Coils / Fins Inside -->
+    <g stroke="#94a3b8" stroke-width="1.5" opacity="0.5">
+      <line x1="25" y1="40" x2="110" y2="40"/>
+      <line x1="25" y1="50" x2="110" y2="50"/>
+      <line x1="25" y1="60" x2="110" y2="60"/>
+      <line x1="25" y1="70" x2="110" y2="70"/>
+      <line x1="25" y1="80" x2="110" y2="80"/>
+      <line x1="25" y1="90" x2="110" y2="90"/>
+      <line x1="25" y1="100" x2="110" y2="100"/>
+      <line x1="25" y1="110" x2="110" y2="110"/>
+      <line x1="25" y1="120" x2="110" y2="120"/>
+    </g>
+
+    <!-- Copper Piping -->
+    <path d="M40,250 L40,160 Q40,140 60,140 L90,140 Q110,140 110,160 L110,320" fill="none" stroke="url(#copper)" stroke-width="10" stroke-linecap="round"/>
+    <path d="M65,280 L65,180 Q65,165 80,165 L120,165" fill="none" stroke="url(#copper)" stroke-width="7" stroke-linecap="round"/>
+
+    <!-- Electrical Terminal Board / Relays / Contactors -->
+    <rect x="125" y="45" width="100" height="150" rx="3" fill="#0f172a" stroke="#475569"/>
+    <!-- Terminal Blocks -->
+    <rect x="135" y="55" width="80" height="20" fill="#334155"/>
+    <circle cx="145" cy="65" r="3" fill="#f59e0b"/>
+    <circle cx="160" cy="65" r="3" fill="#ef4444"/>
+    <circle cx="175" cy="65" r="3" fill="#3b82f6"/>
+    <circle cx="190" cy="65" r="3" fill="#10b981"/>
+    <circle cx="205" cy="65" r="3" fill="#ffffff"/>
+
+    <!-- Circuit Breaker / Contactor switch -->
+    <rect x="135" y="85" width="45" height="50" fill="#1e293b" stroke="#64748b"/>
+    <rect x="145" y="95" width="25" height="15" fill="#0284c7"/>
+
+    <!-- Wires running inside -->
+    <path d="M145,65 Q130,130 140,210 Q145,260 170,280" fill="none" stroke="#ef4444" stroke-width="3"/>
+    <path d="M160,65 Q145,150 155,230 Q160,270 185,290" fill="none" stroke="#f59e0b" stroke-width="3"/>
+    <path d="M175,65 Q170,140 180,220 Q185,250 195,300" fill="none" stroke="#3b82f6" stroke-width="3"/>
+    <path d="M190,65 Q180,120 190,180" fill="none" stroke="#10b981" stroke-width="2.5"/>
+
+    <!-- Open hinged panel door swung open -->
+    <path d="M15,20 L-60,50 L-60,390 L15,380 Z" fill="#94a3b8" opacity="0.85" stroke="#475569" stroke-width="2"/>
+    <line x1="-50" y1="70" x2="-50" y2="370" stroke="#cbd5e1" stroke-width="2"/>
+  </g>
+
+  <!-- Technician Character -->
+  <g transform="translate(10, 180)">
+    <!-- Back & Torso -->
+    <!-- Shirt -->
+    <path d="M0,300 L0,230 C20,200 60,185 100,180 C130,175 160,190 190,210 L250,240 L280,300 L200,300 L120,300 Z" fill="url(#shirtGrad)"/>
+    
+    <!-- RQ Logo on Back / Shoulder -->
+    <g transform="translate(12, 235) rotate(-10) scale(0.9)">
+      <circle cx="15" cy="15" r="14" fill="#ffffff" opacity="0.15"/>
+      <text x="5" y="21" font-family="'Poppins', 'Arial Black', sans-serif" font-weight="900" font-size="16" fill="#ffffff" letter-spacing="1">RQ</text>
+    </g>
+
+    <!-- Collar -->
+    <path d="M95,180 L120,165 L145,180 L130,195 Z" fill="#172554"/>
+
+    <!-- Neck -->
+    <path d="M105,150 L135,150 L140,175 L105,175 Z" fill="url(#skin)"/>
+
+    <!-- Head / Profile -->
+    <path d="M95,110 C95,95 110,80 135,80 C155,80 170,95 170,120 C170,145 155,160 135,160 C115,160 95,145 95,110 Z" fill="url(#skin)"/>
+    
+    <!-- Beard & Hair -->
+    <path d="M100,105 C100,90 108,82 120,80 C115,95 118,110 112,125 C105,120 100,115 100,105 Z" fill="#1e1b18"/>
+    <path d="M125,135 C135,155 155,155 165,140 C165,150 150,162 135,162 C125,162 120,150 125,135 Z" fill="#1e1b18"/>
+    <path d="M140,128 C150,128 160,132 165,138 C158,140 148,138 140,132 Z" fill="#1e1b18"/> <!-- Mustache -->
+
+    <!-- Ear -->
+    <circle cx="115" cy="120" r="8" fill="#c48858"/>
+    <path d="M114,116 Q118,120 114,124" stroke="#9a5e32" fill="none"/>
+
+    <!-- Eye & Safety Glasses -->
+    <path d="M135,110 L168,110 L165,122 L138,122 Z" fill="#38bdf8" opacity="0.75" stroke="#0284c7" stroke-width="2"/>
+    <line x1="115" y1="115" x2="135" y2="112" stroke="#0284c7" stroke-width="2.5"/>
+    <circle cx="148" cy="115" r="2.5" fill="#0f172a"/>
+
+    <!-- Safety Hard Hat / Helmet -->
+    <path d="M85,100 C85,55 120,45 155,50 C180,54 195,75 190,100 L200,104 L80,104 Z" fill="url(#helmetGrad)" stroke="#cbd5e1" stroke-width="1.5" filter="url(#boxShadow)"/>
+    <path d="M80,102 L202,102 L198,107 L80,107 Z" fill="#e2e8f0"/>
+    <!-- Hard Hat Ridge -->
+    <path d="M125,48 C140,48 150,55 152,100" fill="none" stroke="#ffffff" stroke-width="3"/>
+    
+    <!-- Logo on Hard Hat -->
+    <g transform="translate(142, 75) scale(0.65)">
+      <circle cx="15" cy="10" r="14" fill="#003399"/>
+      <circle cx="15" cy="10" r="11" fill="#ffffff"/>
+      <text x="5" y="16" font-family="'Poppins', sans-serif" font-weight="900" font-size="14" fill="#f26522">RQ</text>
+    </g>
+
+    <!-- Arm reaching forward with tool -->
+    <!-- Upper Arm & Sleeve -->
+    <path d="M175,200 L230,225 L215,260 L165,225 Z" fill="url(#shirtGrad)"/>
+    <!-- Forearm -->
+    <path d="M225,230 L310,215 L315,240 L220,260 Z" fill="url(#skin)"/>
+    
+    <!-- Hand with Work Gloves -->
+    <path d="M305,215 L345,210 C352,210 355,218 350,225 L330,240 C325,245 315,245 308,235 Z" fill="#334155" stroke="#f97316" stroke-width="2"/>
+    
+    <!-- Screwdriver / Testing Pen Tool in hand -->
+    <rect x="335" y="195" width="45" height="6" rx="2" fill="#f59e0b" transform="rotate(-15 335 195)"/>
+    <rect x="375" y="193" width="30" height="3" fill="#e2e8f0" transform="rotate(-15 335 195)"/>
+    <!-- Spark / Contact point glow -->
+    <circle cx="395" cy="178" r="4" fill="#38bdf8" opacity="0.8"/>
+
+    <!-- Left Arm stabilizing -->
+    <path d="M140,210 L195,270 L240,265 L275,250" fill="none" stroke="url(#shirtGrad)" stroke-width="32" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Left Glove holding AC panel edge -->
+    <circle cx="280" cy="245" r="14" fill="#334155" stroke="#f97316" stroke-width="2"/>
+  </g>
+</svg>
