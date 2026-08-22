@@ -3566,6 +3566,16 @@ label {
   font-size: 16px;
 }
 
+/* RQ custom: shift main nav right toward the CTA and extend CTA further right */
+@media (min-width: 1200px) {
+  .cs_site_header.cs_style_1 .cs_main_header_center {
+    margin-left: 80px;
+  }
+  .cs_site_header.cs_style_1 .cs_main_header_right {
+    margin-right: -30px;
+  }
+}
+
 .cs_site_header_full_width .container {
   max-width: 100%;
   padding: 0 100px;
@@ -3684,6 +3694,9 @@ label {
     top: 50%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
+  }
+  .cs_main_header_center .cs_nav .cs_nav_list {
+    margin-left: 90px;
   }
   .cs_site_header.cs_style_1 .cs_main_header_center {
     display: -webkit-box;
@@ -11819,3 +11832,7 @@ label {
     font-size: 26px;
   }
 }
+
+/* Page Heading: remove phone icon badge */
+.cs_page_heading::before { display: none; }
+

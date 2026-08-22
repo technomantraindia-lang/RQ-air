@@ -2,21 +2,21 @@
 
 Use these as proven team references, not as instructions to copy blindly. Current user prompt and current-project conventions always win.
 
-## Pattern 1: Contact Form design pattern · water purifier
-- Category: design.section.contact-form
+## Pattern 1: Cards design pattern · water purifier
+- Category: design.section.cards
 - Quality: 100 · Status: approved
-Contact Form pattern · composition form-plus-contact-info · anatomy form, input-fields, message-field, select-field · layout bounded-container, grid, flex, split-layout · responsive breakpoint-aware, single-column-mobile · media image-led, cover-crop, fixed-aspect · surface filled-background, shadow, border · motion css-transition, gsap · interaction hover-state, carousel-slider, expand-collapse · alignment centered · evidence 6 source file(s)
+Cards pattern · composition multi-column-card-grid · anatomy item-cta, title, visual, commercial-metadata · layout bounded-container, grid, flex, stacked-mobile · responsive breakpoint-aware, single-column-mobile · media image-led, cover-crop, fixed-aspect · surface filled-background, shadow, border · motion css-transition, gsap · interaction hover-state, focus-state, carousel-slider · alignment centered, left-aligned · evidence 16 source file(s)
 ```
 {
-    "type": "contact-form",
+    "type": "cards",
     "framework": "react",
-    "evidence": 6,
+    "evidence": 16,
     "layout": [
         "bounded-container",
         "grid",
         "flex",
-        "split-layout",
-        "stacked-mobile"
+        "stacked-mobile",
+        "split-layout"
     ],
     "responsive": [
         "breakpoint-aware",
@@ -28,9 +28,8 @@ Contact Form pattern · composition form-plus-contact-info · anatomy form, inpu
     ],
     "interactions": [
         "hover-state",
-        "carousel-slider",
-        "expand-collapse",
-        "focus-state"
+        "focus-state",
+        "carousel-slider"
     ],
     "typography": [
         "strong-heading",
@@ -43,27 +42,27 @@ Contact Form pattern · composition form-plus-contact-info · anatomy form, inpu
     ],
     "spacing": [
         "10px",
-        "18px",
-        "16px",
         "24px",
+        "12px",
         "20px",
-        "28px"
+        "18px",
+        "16px"
     ],
     "radii": [
-        "20px",
-        "28px",
-        "12px",
+        "18px",
         "50%",
-        "18px"
+        "16px",
+        "12px",
+        "24px"
     ],
     "composition": [
-        "form-plus-contact-info"
+        "multi-column-card-grid"
     ],
     "anatomy": [
-        "form",
-        "input-fields",
-        "message-field",
-        "select-field"
+        "item-cta",
+        "title",
+        "visual",
+        "commercial-metadata"
     ],
     "media": [
         "image-led",
@@ -71,27 +70,28 @@ Contact Form pattern · composition form-plus-contact-info · anatomy form, inpu
         "fixed-aspect"
     ],
     "alignment": [
-        "centered"
+        "centered",
+        "left-aligned"
     ],
     "base_quality": 88,
-    "summary": "Contact Form pattern · composition form-plus-contact-info · anatomy form, input-fields, message-field, select-field · layout bounded-container, grid, flex, split-layout · responsive breakpoint-aware, single-column-mobile · media image-led, cover-crop, fixed-aspect · surface filled-background, shadow, border · motion css-transition, gsap · interaction hover-state, carousel-slider, expand-collapse · alignment centered · evidence 6 source file(s)",
+    "summary": "Cards pattern · composition multi-column-card-grid · anatomy item-cta, title, visual, commercial-metadata · layout bounded-container, grid, flex, stacked-mobile · responsive breakpoint-aware, single-column-mobile · media image-led, cover-crop, fixed-aspect · surface filled-background, shadow, border · motion css-transition, gsap · interaction hover-state, focus-state, carousel-slider · alignment centered, left-aligned · evidence 16 source file(s)",
     "quality": 100,
     "reuse_rule": "Use structural/layout/interaction guidance only. Preserve the current project brand, copy, assets and explicit user instructions."
 }
 ```
 
-## Pattern 2: Contact Form design pattern · ss milkcan
-- Category: design.section.contact-form
+## Pattern 2: Cards design pattern · ss milkcan
+- Category: design.section.cards
 - Quality: 100 · Status: approved
-Contact Form pattern · composition form-plus-contact-info · anatomy select-field, form, input-fields, message-field · layout bounded-container, grid, flex, split-layout · responsive breakpoint-aware, single-column-mobile · media image-led, cover-crop · surface border, filled-background, shadow · motion gsap, css-transition · interaction carousel-slider, hover-state, focus-state · alignment centered · evidence 10 source file(s)
+Cards pattern · composition multi-column-card-grid · anatomy visual, title, item-cta, commercial-metadata · layout grid, bounded-container, flex, split-layout · responsive breakpoint-aware, single-column-mobile · media image-led, cover-crop · surface border, filled-background, shadow · motion gsap, css-transition · interaction carousel-slider, hover-state · alignment centered · evidence 13 source file(s)
 ```
 {
-    "type": "contact-form",
+    "type": "cards",
     "framework": "react",
-    "evidence": 10,
+    "evidence": 13,
     "layout": [
-        "bounded-container",
         "grid",
+        "bounded-container",
         "flex",
         "split-layout",
         "stacked-mobile"
@@ -106,8 +106,7 @@ Contact Form pattern · composition form-plus-contact-info · anatomy select-fie
     ],
     "interactions": [
         "carousel-slider",
-        "hover-state",
-        "focus-state"
+        "hover-state"
     ],
     "typography": [
         "uppercase-accent",
@@ -119,28 +118,28 @@ Contact Form pattern · composition form-plus-contact-info · anatomy select-fie
         "shadow"
     ],
     "spacing": [
-        "32px",
-        "80px",
-        "24px",
+        "16px",
         "20px",
-        "40px",
-        "16px"
+        "12px",
+        "8px",
+        "6px",
+        "4px"
     ],
     "radii": [
-        "6px",
-        "4px",
+        "100px",
         "20px",
-        "16px",
-        "12px"
+        "24px",
+        0,
+        "16px"
     ],
     "composition": [
-        "form-plus-contact-info"
+        "multi-column-card-grid"
     ],
     "anatomy": [
-        "select-field",
-        "form",
-        "input-fields",
-        "message-field"
+        "visual",
+        "title",
+        "item-cta",
+        "commercial-metadata"
     ],
     "media": [
         "image-led",
@@ -150,99 +149,21 @@ Contact Form pattern · composition form-plus-contact-info · anatomy select-fie
         "centered"
     ],
     "base_quality": 88,
-    "summary": "Contact Form pattern · composition form-plus-contact-info · anatomy select-field, form, input-fields, message-field · layout bounded-container, grid, flex, split-layout · responsive breakpoint-aware, single-column-mobile · media image-led, cover-crop · surface border, filled-background, shadow · motion gsap, css-transition · interaction carousel-slider, hover-state, focus-state · alignment centered · evidence 10 source file(s)",
+    "summary": "Cards pattern · composition multi-column-card-grid · anatomy visual, title, item-cta, commercial-metadata · layout grid, bounded-container, flex, split-layout · responsive breakpoint-aware, single-column-mobile · media image-led, cover-crop · surface border, filled-background, shadow · motion gsap, css-transition · interaction carousel-slider, hover-state · alignment centered · evidence 13 source file(s)",
     "quality": 100,
     "reuse_rule": "Use structural/layout/interaction guidance only. Preserve the current project brand, copy, assets and explicit user instructions."
 }
 ```
 
-## Pattern 3: Hero design pattern · tech6sence
-- Category: design.section.hero
+## Pattern 3: Cards design pattern · tech6sence
+- Category: design.section.cards
 - Quality: 100 · Status: approved
-Hero pattern · composition split-content-media · anatomy supporting-copy, primary-heading, eyebrow, dual-cta · layout flex, stacked-mobile, grid, bounded-container · responsive breakpoint-aware, single-column-mobile · media image-led, cover-crop, video-led · surface filled-background, border, shadow · motion css-transition · interaction hover-state, expand-collapse · alignment centered, left-aligned · evidence 53 source file(s)
+Cards pattern · composition multi-column-card-grid · anatomy commercial-metadata, title, item-cta, visual · layout flex, stacked-mobile, grid, split-layout · responsive breakpoint-aware, single-column-mobile · media image-led, cover-crop, video-led · surface border, filled-background, shadow · motion css-transition, framer-motion · interaction hover-state, expand-collapse, carousel-slider · alignment centered, left-aligned · evidence 60 source file(s)
 ```
 {
-    "type": "hero",
+    "type": "cards",
     "framework": "react",
-    "evidence": 53,
-    "layout": [
-        "flex",
-        "stacked-mobile",
-        "grid",
-        "bounded-container",
-        "split-layout"
-    ],
-    "responsive": [
-        "breakpoint-aware",
-        "single-column-mobile"
-    ],
-    "motion": [
-        "css-transition"
-    ],
-    "interactions": [
-        "hover-state",
-        "expand-collapse"
-    ],
-    "typography": [
-        "strong-heading",
-        "uppercase-accent"
-    ],
-    "surface": [
-        "filled-background",
-        "border",
-        "shadow"
-    ],
-    "spacing": [
-        "10px",
-        "20px",
-        "12px",
-        "8px",
-        "2px",
-        "100px"
-    ],
-    "radii": [
-        "50%",
-        "inherit",
-        "8px",
-        "9999px",
-        "14px"
-    ],
-    "composition": [
-        "split-content-media"
-    ],
-    "anatomy": [
-        "supporting-copy",
-        "primary-heading",
-        "eyebrow",
-        "dual-cta",
-        "single-cta"
-    ],
-    "media": [
-        "image-led",
-        "cover-crop",
-        "video-led",
-        "fixed-aspect"
-    ],
-    "alignment": [
-        "centered",
-        "left-aligned"
-    ],
-    "base_quality": 88,
-    "summary": "Hero pattern · composition split-content-media · anatomy supporting-copy, primary-heading, eyebrow, dual-cta · layout flex, stacked-mobile, grid, bounded-container · responsive breakpoint-aware, single-column-mobile · media image-led, cover-crop, video-led · surface filled-background, border, shadow · motion css-transition · interaction hover-state, expand-collapse · alignment centered, left-aligned · evidence 53 source file(s)",
-    "quality": 100,
-    "reuse_rule": "Use structural/layout/interaction guidance only. Preserve the current project brand, copy, assets and explicit user instructions."
-}
-```
-
-## Pattern 4: Contact Form design pattern · tech6sence
-- Category: design.section.contact-form
-- Quality: 100 · Status: approved
-Contact Form pattern · composition form-plus-contact-info · anatomy form, input-fields, message-field, select-field · layout flex, stacked-mobile, grid, split-layout · responsive breakpoint-aware, single-column-mobile · media video-led, cover-crop, image-led · surface shadow, border, filled-background · motion css-transition · interaction hover-state, focus-state · alignment centered, left-aligned · evidence 12 source file(s)
-```
-{
-    "type": "contact-form",
-    "framework": "react",
-    "evidence": 12,
+    "evidence": 60,
     "layout": [
         "flex",
         "stacked-mobile",
@@ -255,10 +176,13 @@ Contact Form pattern · composition form-plus-contact-info · anatomy form, inpu
         "single-column-mobile"
     ],
     "motion": [
-        "css-transition"
+        "css-transition",
+        "framer-motion"
     ],
     "interactions": [
         "hover-state",
+        "expand-collapse",
+        "carousel-slider",
         "focus-state"
     ],
     "typography": [
@@ -266,25 +190,38 @@ Contact Form pattern · composition form-plus-contact-info · anatomy form, inpu
         "uppercase-accent"
     ],
     "surface": [
-        "shadow",
         "border",
-        "filled-background"
+        "filled-background",
+        "shadow"
     ],
-    "spacing": [],
-    "radii": [],
+    "spacing": [
+        "10px",
+        "8px",
+        "2px",
+        "24px",
+        "12px",
+        "6px"
+    ],
+    "radii": [
+        "50%",
+        "inherit",
+        "8px",
+        "14px",
+        "16px"
+    ],
     "composition": [
-        "form-plus-contact-info"
+        "multi-column-card-grid"
     ],
     "anatomy": [
-        "form",
-        "input-fields",
-        "message-field",
-        "select-field"
+        "commercial-metadata",
+        "title",
+        "item-cta",
+        "visual"
     ],
     "media": [
-        "video-led",
-        "cover-crop",
         "image-led",
+        "cover-crop",
+        "video-led",
         "fixed-aspect"
     ],
     "alignment": [
@@ -292,7 +229,77 @@ Contact Form pattern · composition form-plus-contact-info · anatomy form, inpu
         "left-aligned"
     ],
     "base_quality": 88,
-    "summary": "Contact Form pattern · composition form-plus-contact-info · anatomy form, input-fields, message-field, select-field · layout flex, stacked-mobile, grid, split-layout · responsive breakpoint-aware, single-column-mobile · media video-led, cover-crop, image-led · surface shadow, border, filled-background · motion css-transition · interaction hover-state, focus-state · alignment centered, left-aligned · evidence 12 source file(s)",
+    "summary": "Cards pattern · composition multi-column-card-grid · anatomy commercial-metadata, title, item-cta, visual · layout flex, stacked-mobile, grid, split-layout · responsive breakpoint-aware, single-column-mobile · media image-led, cover-crop, video-led · surface border, filled-background, shadow · motion css-transition, framer-motion · interaction hover-state, expand-collapse, carousel-slider · alignment centered, left-aligned · evidence 60 source file(s)",
+    "quality": 100,
+    "reuse_rule": "Use structural/layout/interaction guidance only. Preserve the current project brand, copy, assets and explicit user instructions."
+}
+```
+
+## Pattern 4: Cards design pattern · angel backend
+- Category: design.section.cards
+- Quality: 100 · Status: approved
+Cards pattern · composition multi-column-card-grid · anatomy title, commercial-metadata, item-cta, visual · layout flex, bounded-container, grid, split-layout · responsive breakpoint-aware, single-column-mobile · media image-led · surface border, filled-background, shadow · interaction hover-state · alignment centered, left-aligned · evidence 4 source file(s)
+```
+{
+    "type": "cards",
+    "framework": "laravel",
+    "evidence": 4,
+    "layout": [
+        "flex",
+        "bounded-container",
+        "grid",
+        "split-layout"
+    ],
+    "responsive": [
+        "breakpoint-aware",
+        "single-column-mobile"
+    ],
+    "motion": [],
+    "interactions": [
+        "hover-state"
+    ],
+    "typography": [
+        "strong-heading",
+        "uppercase-accent"
+    ],
+    "surface": [
+        "border",
+        "filled-background",
+        "shadow"
+    ],
+    "spacing": [
+        "4px",
+        "14px",
+        "10px",
+        "6px",
+        "12px",
+        "24px"
+    ],
+    "radii": [
+        "8px",
+        "9px",
+        "6px",
+        "16px",
+        "14px"
+    ],
+    "composition": [
+        "multi-column-card-grid"
+    ],
+    "anatomy": [
+        "title",
+        "commercial-metadata",
+        "item-cta",
+        "visual"
+    ],
+    "media": [
+        "image-led"
+    ],
+    "alignment": [
+        "centered",
+        "left-aligned"
+    ],
+    "base_quality": 88,
+    "summary": "Cards pattern · composition multi-column-card-grid · anatomy title, commercial-metadata, item-cta, visual · layout flex, bounded-container, grid, split-layout · responsive breakpoint-aware, single-column-mobile · media image-led · surface border, filled-background, shadow · interaction hover-state · alignment centered, left-aligned · evidence 4 source file(s)",
     "quality": 100,
     "reuse_rule": "Use structural/layout/interaction guidance only. Preserve the current project brand, copy, assets and explicit user instructions."
 }
