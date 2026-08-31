@@ -3661,7 +3661,7 @@ label {
   z-index: 2;
 }
 .cs_site_branding img {
-  max-height: 72px;
+  max-height: 75px;
   width: auto;
 }
 .cs_site_branding + .cs_nav {
