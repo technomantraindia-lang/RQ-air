@@ -3661,7 +3661,7 @@ label {
   z-index: 2;
 }
 .cs_site_branding img {
-  max-height: 54px;
+  max-height: 72px;
   width: auto;
 }
 .cs_site_branding + .cs_nav {
@@ -12360,3 +12360,12 @@ label {
 
 /* Page Heading: remove phone icon badge */
 .cs_page_heading::before { display: none; }
+
+/* Footer logo constraint */
+.cs_footer_logo img {
+  max-width: 220px;
+  max-height: 126px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
