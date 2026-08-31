@@ -1,0 +1,36 @@
+# Technomantra Task Capsules V4.11
+
+This workspace uses task capsules so developers can run parallel development without prompt/file mixing and without losing intelligence.
+
+## How to use capsule memory
+1. Treat the active capsule below as the only resumable state for this workspace/window/task lane.
+2. If the developer says "continue", continue only from this capsule when it matches the same workspace/window/task. If no matching capsule exists, ask for the missing context instead of guessing from another project.
+3. Keep strong reasoning quality: use Project Memory, Team Learning, Developer Learning, framework maps and current source evidence, but retrieve only what is relevant to the active capsule.
+4. Do not merge files, requirements, screenshots, terminal output, or decisions from a different capsule.
+5. When the task is long, update your mental checkpoint: objective, completed items, pending items, files touched, current blocker, next action and validation.
+6. If two tasks touch the same file, never rewrite the whole file to combine them. Use minimal range edits and preserve unrelated changes.
+
+## Active capsule snapshot
+The extension refreshes this file automatically. Prefer its concise state over old chat history when resuming.
+
+- Capsule ID: tm-cap-2e64b94bcfe204291000bafe
+- Isolation: task-capsule-v411
+- Workspace ID: tm-ws-9ec2c53ddfaeafe7c4aa5c13
+- Window ID: tm-win-811e29d5eb874d10f32bd04d
+- Project: arkdin-air-conditioning-services-php-template-2026-08-14-03-12-21-utc
+- Framework: 
+- Developer mode: smart
+- Model mode: eco
+- Active file: arkdin-html/index.html
+- Objective: Current developer prompt in this workspace/window only.
+- Blocker: none
+- Next action: Inspect current prompt and workspace evidence before editing.
+
+## Touched files in this capsule
+- .vscode/settings.json
+
+## Recent files in this workspace/window
+- arkdin-html/index.html
+
+## Hard rule
+If a file, goal, screenshot, terminal output, or decision is not connected to this capsule, do not use it for the current task.

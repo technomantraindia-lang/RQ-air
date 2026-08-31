@@ -4,6 +4,10 @@ These are repeated preferences observed from this developer. Correction-backed p
 Priority is always: current explicit prompt > current project conventions > strong developer preference > team learning.
 Never broaden business scope because of a learned preference. A learned slider preference may improve a testimonial feature; it must not create unrelated sections or data models.
 
-- Preference 1: ui.styling.approach = utility-first · confidence 89% · evidence 8 · html-static
+- Preference 1: ui.styling.approach = utility-first · confidence 96% · evidence 25 · html-static
 
-- Preference 2: ui.testimonials.presentation = static-cards · confidence 88% · evidence 7 · html-static
+- Preference 2: ui.motion.approach = subtle-animation · confidence 95% · evidence 14 · html-static
+
+- Preference 3: ui.faq.presentation = accordion · confidence 88% · evidence 7 · html-static
+
+- Preference 4: node.architecture.preference = service-layer · confidence 70% · evidence 4 · node

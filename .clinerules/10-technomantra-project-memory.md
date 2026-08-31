@@ -4,56 +4,57 @@
 
 - Workspace: arkdin-air-conditioning-services-php-template-2026-08-14-03-12-21-utc
 - Technology: Not yet detected
-- Active file at refresh: None
-- Local code graph: 20 files · 6 edges · 0 matched flows
-- Refreshed: 2026-08-22T07:06:31.748Z
+- Active file at refresh: arkdin-html/index.html
+- Local code graph: 32 files · 16 edges · 0 matched flows
+- Refreshed: 2026-08-31T08:46:45.379Z
 
 
 
 ## Recently edited files
-- arkdin-html/assets/css/style.css
-- arkdin-html/assets/css/services-custom.css
-- arkdin-html/about-us.html
-- arkdin-html/contact.html
-- arkdin-html/assets/css/rq-contact.css
-- arkdin-html/index.html
-- arkdin-html/projects.html
-- arkdin-html/service-details.html
-- arkdin-html/service.html
-- arkdin-html/assets/css/appreciation-section.css
-- arkdin-html/assets/img/technician-maintenance.svg
-- arkdin-html/assets/img/jsw-appreciation-letter.svg
 - .vscode/settings.json
+- arkdin-html/index.html
+- arkdin-html/assets/css/mobile-responsive.css
+- arkdin-html/assets/js/inquiry-modal.js
+- arkdin-html/assets/css/inquiry-modal.css
+- arkdin-html/assets/css/style.css
 
 ## High-value project files
-- arkdin-html/assets/css/style.css
-- arkdin-html/assets/css/services-custom.css
-- arkdin-html/about-us.html
-- arkdin-html/contact.html
-- arkdin-html/assets/css/rq-contact.css
 - arkdin-html/index.html
-- arkdin-html/projects.html
-- arkdin-html/service-details.html
-- arkdin-html/service.html
-- arkdin-html/assets/css/appreciation-section.css
-- arkdin-html/assets/img/technician-maintenance.svg
-- arkdin-html/assets/img/jsw-appreciation-letter.svg
 - .vscode/settings.json
+- arkdin-html/assets/css/mobile-responsive.css
+- arkdin-html/assets/js/inquiry-modal.js
+- arkdin-html/assets/css/inquiry-modal.css
+- arkdin-html/assets/css/style.css
 - .clinerules/05-technomantra-execution-mode.md
 - .clinerules/06-technomantra-developer-mode.md
+- .clinerules/07-technomantra-eco-execution.md
+- .clinerules/08-technomantra-task-watchdog.md
+- .clinerules/09-technomantra-multitask-isolation.md
 - .clinerules/10-technomantra-project-memory.md
 - .clinerules/11-technomantra-code-knowledge.md
+- .clinerules/12-technomantra-task-capsules.md
+- .clinerules/13-technomantra-runtime-price-optimizer.md
+- .clinerules/14-technomantra-adaptive-cost-optimizer.md
+- .clinerules/15-technomantra-fast-coding-engine.md
 - .clinerules/90-technomantra-selected-agent.md
 - .clinerules/technomantra-developer-learning.md
 - .clinerules/technomantra-team-learning.md
 - .vscode/technomantra-project.json
+- arkdin-html/about-us.html
+- arkdin-html/ac-installation.html
+- arkdin-html/ac-repair-service.html
+- arkdin-html/ac-supplier.html
+- arkdin-html/amc-plans.html
 - arkdin-html/assets/css/about-custom.css
 - arkdin-html/assets/css/animate.css
+- arkdin-html/assets/css/appreciation-section.css
 - arkdin-html/assets/css/bootstrap.min.css
 - arkdin-html/assets/css/fontawesome.min.css
 - arkdin-html/assets/css/rq-ap.css
+- arkdin-html/assets/css/rq-contact.css
 - arkdin-html/assets/css/rq-why.css
 - arkdin-html/assets/css/rq-work.css
+- arkdin-html/assets/css/services-custom.css
 - arkdin-html/assets/css/slick.min.css
 - arkdin-html/assets/fonts/lg.svg
 - arkdin-html/assets/img/blog_section_img_1.svg
@@ -93,19 +94,30 @@
 - arkdin-html/assets/img/icons/why_chose_us_5.svg
 - arkdin-html/assets/img/icons/why_chose_us_6.svg
 - arkdin-html/assets/img/icons/why_chose_us_7.svg
+- arkdin-html/assets/img/jsw-appreciation-letter.svg
 - arkdin-html/assets/img/logo_white.svg
 - arkdin-html/assets/img/logo.svg
 - arkdin-html/assets/img/preloader_icon.svg
 - arkdin-html/assets/img/service_bg_1.svg
+
+## Additional indexed files
 - arkdin-html/assets/img/service_bg_2.svg
 - arkdin-html/assets/img/service_shape_1.svg
 - arkdin-html/assets/img/shapes/price_shape.svg
 - arkdin-html/assets/img/shapes/service_shape_1.svg
+- arkdin-html/assets/img/technician-maintenance.svg
 - arkdin-html/assets/img/testimonial_bg.svg
 - arkdin-html/assets/img/why_chose_us_img_3.svg
 - arkdin-html/assets/js/jquery-3.6.0.min.js
 - arkdin-html/assets/js/jquery.slick.min.js
 - arkdin-html/assets/js/main.js
-
-## Additional indexed files
 - arkdin-html/assets/js/wow.min.js
+- arkdin-html/contact.html
+- arkdin-html/duct-cleaning-sanitization.html
+- arkdin-html/emergency-support.html
+- arkdin-html/hvac-inspection.html
+- arkdin-html/projects.html
+- arkdin-html/refrigeration-solutions.html
+- arkdin-html/routine-maintenance.html
+- arkdin-html/service-details.html
+- arkdin-html/service.html

@@ -2,29 +2,28 @@
 
 Use these as proven team references, not as instructions to copy blindly. Current user prompt and current-project conventions always win.
 
-## Pattern 1: Cards design pattern · water purifier
-- Category: design.section.cards
+## Pattern 1: Header design pattern · bhugaurd
+- Category: design.section.header
 - Quality: 100 · Status: approved
-Cards pattern · composition multi-column-card-grid · anatomy item-cta, title, visual, commercial-metadata · layout bounded-container, grid, flex, stacked-mobile · responsive breakpoint-aware, single-column-mobile · media image-led, cover-crop, fixed-aspect · surface filled-background, shadow, border · motion css-transition, gsap · interaction hover-state, focus-state, carousel-slider · alignment centered, left-aligned · evidence 16 source file(s)
+Header pattern · composition sticky-header · anatomy primary-navigation, brand-logo · layout grid, flex, bounded-container, split-layout · responsive breakpoint-aware, single-column-mobile · media fixed-aspect · surface border, filled-background, shadow · motion css-transition · interaction hover-state, focus-state, carousel-slider · alignment centered · evidence 51 source file(s)
 ```
 {
-    "type": "cards",
-    "framework": "react",
-    "evidence": 16,
+    "type": "header",
+    "framework": "laravel",
+    "evidence": 51,
     "layout": [
-        "bounded-container",
         "grid",
         "flex",
-        "stacked-mobile",
-        "split-layout"
+        "bounded-container",
+        "split-layout",
+        "stacked-mobile"
     ],
     "responsive": [
         "breakpoint-aware",
         "single-column-mobile"
     ],
     "motion": [
-        "css-transition",
-        "gsap"
+        "css-transition"
     ],
     "interactions": [
         "hover-state",
@@ -36,139 +35,52 @@ Cards pattern · composition multi-column-card-grid · anatomy item-cta, title, 
         "uppercase-accent"
     ],
     "surface": [
-        "filled-background",
-        "shadow",
-        "border"
-    ],
-    "spacing": [
-        "10px",
-        "24px",
-        "12px",
-        "20px",
-        "18px",
-        "16px"
-    ],
-    "radii": [
-        "18px",
-        "50%",
-        "16px",
-        "12px",
-        "24px"
-    ],
-    "composition": [
-        "multi-column-card-grid"
-    ],
-    "anatomy": [
-        "item-cta",
-        "title",
-        "visual",
-        "commercial-metadata"
-    ],
-    "media": [
-        "image-led",
-        "cover-crop",
-        "fixed-aspect"
-    ],
-    "alignment": [
-        "centered",
-        "left-aligned"
-    ],
-    "base_quality": 88,
-    "summary": "Cards pattern · composition multi-column-card-grid · anatomy item-cta, title, visual, commercial-metadata · layout bounded-container, grid, flex, stacked-mobile · responsive breakpoint-aware, single-column-mobile · media image-led, cover-crop, fixed-aspect · surface filled-background, shadow, border · motion css-transition, gsap · interaction hover-state, focus-state, carousel-slider · alignment centered, left-aligned · evidence 16 source file(s)",
-    "quality": 100,
-    "reuse_rule": "Use structural/layout/interaction guidance only. Preserve the current project brand, copy, assets and explicit user instructions."
-}
-```
-
-## Pattern 2: Cards design pattern · ss milkcan
-- Category: design.section.cards
-- Quality: 100 · Status: approved
-Cards pattern · composition multi-column-card-grid · anatomy visual, title, item-cta, commercial-metadata · layout grid, bounded-container, flex, split-layout · responsive breakpoint-aware, single-column-mobile · media image-led, cover-crop · surface border, filled-background, shadow · motion gsap, css-transition · interaction carousel-slider, hover-state · alignment centered · evidence 13 source file(s)
-```
-{
-    "type": "cards",
-    "framework": "react",
-    "evidence": 13,
-    "layout": [
-        "grid",
-        "bounded-container",
-        "flex",
-        "split-layout",
-        "stacked-mobile"
-    ],
-    "responsive": [
-        "breakpoint-aware",
-        "single-column-mobile"
-    ],
-    "motion": [
-        "gsap",
-        "css-transition"
-    ],
-    "interactions": [
-        "carousel-slider",
-        "hover-state"
-    ],
-    "typography": [
-        "uppercase-accent",
-        "strong-heading"
-    ],
-    "surface": [
         "border",
         "filled-background",
         "shadow"
     ],
     "spacing": [
-        "16px",
-        "20px",
-        "12px",
-        "8px",
-        "6px",
-        "4px"
+        "1px"
     ],
     "radii": [
-        "100px",
-        "20px",
-        "24px",
-        0,
-        "16px"
+        "var(--radius-md)",
+        "var(--radius-lg)",
+        "var(--radius-xl)",
+        "3.40282e38px",
+        0
     ],
     "composition": [
-        "multi-column-card-grid"
+        "sticky-header"
     ],
     "anatomy": [
-        "visual",
-        "title",
-        "item-cta",
-        "commercial-metadata"
+        "primary-navigation",
+        "brand-logo"
     ],
     "media": [
-        "image-led",
-        "cover-crop"
+        "fixed-aspect"
     ],
     "alignment": [
         "centered"
     ],
     "base_quality": 88,
-    "summary": "Cards pattern · composition multi-column-card-grid · anatomy visual, title, item-cta, commercial-metadata · layout grid, bounded-container, flex, split-layout · responsive breakpoint-aware, single-column-mobile · media image-led, cover-crop · surface border, filled-background, shadow · motion gsap, css-transition · interaction carousel-slider, hover-state · alignment centered · evidence 13 source file(s)",
+    "summary": "Header pattern · composition sticky-header · anatomy primary-navigation, brand-logo · layout grid, flex, bounded-container, split-layout · responsive breakpoint-aware, single-column-mobile · media fixed-aspect · surface border, filled-background, shadow · motion css-transition · interaction hover-state, focus-state, carousel-slider · alignment centered · evidence 51 source file(s)",
     "quality": 100,
     "reuse_rule": "Use structural/layout/interaction guidance only. Preserve the current project brand, copy, assets and explicit user instructions."
 }
 ```
 
-## Pattern 3: Cards design pattern · tech6sence
-- Category: design.section.cards
+## Pattern 2: Stats design pattern · bhugaurd
+- Category: design.section.stats
 - Quality: 100 · Status: approved
-Cards pattern · composition multi-column-card-grid · anatomy commercial-metadata, title, item-cta, visual · layout flex, stacked-mobile, grid, split-layout · responsive breakpoint-aware, single-column-mobile · media image-led, cover-crop, video-led · surface border, filled-background, shadow · motion css-transition, framer-motion · interaction hover-state, expand-collapse, carousel-slider · alignment centered, left-aligned · evidence 60 source file(s)
+Stats pattern · composition metric-grid · layout grid, flex, bounded-container · responsive breakpoint-aware, single-column-mobile · media image-led · surface border, filled-background, shadow · motion css-transition · interaction hover-state, focus-state, carousel-slider · alignment centered · evidence 13 source file(s)
 ```
 {
-    "type": "cards",
-    "framework": "react",
-    "evidence": 60,
+    "type": "stats",
+    "framework": "laravel",
+    "evidence": 13,
     "layout": [
-        "flex",
-        "stacked-mobile",
         "grid",
-        "split-layout",
+        "flex",
         "bounded-container"
     ],
     "responsive": [
@@ -176,79 +88,55 @@ Cards pattern · composition multi-column-card-grid · anatomy commercial-metada
         "single-column-mobile"
     ],
     "motion": [
-        "css-transition",
-        "framer-motion"
+        "css-transition"
     ],
     "interactions": [
         "hover-state",
-        "expand-collapse",
+        "focus-state",
         "carousel-slider",
-        "focus-state"
+        "animated-counter"
     ],
-    "typography": [
-        "strong-heading",
-        "uppercase-accent"
-    ],
+    "typography": [],
     "surface": [
         "border",
         "filled-background",
         "shadow"
     ],
-    "spacing": [
-        "10px",
-        "8px",
-        "2px",
-        "24px",
-        "12px",
-        "6px"
-    ],
+    "spacing": [],
     "radii": [
-        "50%",
-        "inherit",
-        "8px",
-        "14px",
-        "16px"
+        "var(--radius-lg)",
+        "3.40282e38px"
     ],
     "composition": [
-        "multi-column-card-grid"
+        "metric-grid"
     ],
-    "anatomy": [
-        "commercial-metadata",
-        "title",
-        "item-cta",
-        "visual"
-    ],
+    "anatomy": [],
     "media": [
-        "image-led",
-        "cover-crop",
-        "video-led",
-        "fixed-aspect"
+        "image-led"
     ],
     "alignment": [
-        "centered",
-        "left-aligned"
+        "centered"
     ],
-    "base_quality": 88,
-    "summary": "Cards pattern · composition multi-column-card-grid · anatomy commercial-metadata, title, item-cta, visual · layout flex, stacked-mobile, grid, split-layout · responsive breakpoint-aware, single-column-mobile · media image-led, cover-crop, video-led · surface border, filled-background, shadow · motion css-transition, framer-motion · interaction hover-state, expand-collapse, carousel-slider · alignment centered, left-aligned · evidence 60 source file(s)",
+    "base_quality": 87,
+    "summary": "Stats pattern · composition metric-grid · layout grid, flex, bounded-container · responsive breakpoint-aware, single-column-mobile · media image-led · surface border, filled-background, shadow · motion css-transition · interaction hover-state, focus-state, carousel-slider · alignment centered · evidence 13 source file(s)",
     "quality": 100,
     "reuse_rule": "Use structural/layout/interaction guidance only. Preserve the current project brand, copy, assets and explicit user instructions."
 }
 ```
 
-## Pattern 4: Cards design pattern · angel backend
-- Category: design.section.cards
+## Pattern 3: Services design pattern · angel backend
+- Category: design.section.services
 - Quality: 100 · Status: approved
-Cards pattern · composition multi-column-card-grid · anatomy title, commercial-metadata, item-cta, visual · layout flex, bounded-container, grid, split-layout · responsive breakpoint-aware, single-column-mobile · media image-led · surface border, filled-background, shadow · interaction hover-state · alignment centered, left-aligned · evidence 4 source file(s)
+Services pattern · composition multi-column-card-grid · anatomy commercial-metadata, item-cta, visual, title · layout grid, flex, bounded-container · responsive breakpoint-aware, single-column-mobile · media image-led · surface border, filled-background · interaction hover-state · alignment centered, left-aligned · evidence 10 source file(s)
 ```
 {
-    "type": "cards",
+    "type": "services",
     "framework": "laravel",
-    "evidence": 4,
+    "evidence": 10,
     "layout": [
-        "flex",
-        "bounded-container",
         "grid",
-        "split-layout"
+        "flex",
+        "bounded-container"
     ],
     "responsive": [
         "breakpoint-aware",
@@ -264,32 +152,28 @@ Cards pattern · composition multi-column-card-grid · anatomy title, commercial
     ],
     "surface": [
         "border",
-        "filled-background",
-        "shadow"
+        "filled-background"
     ],
     "spacing": [
         "4px",
-        "14px",
-        "10px",
+        "24px",
         "6px",
         "12px",
-        "24px"
+        "40px",
+        "32px"
     ],
     "radii": [
-        "8px",
-        "9px",
         "6px",
-        "16px",
-        "14px"
+        "8px"
     ],
     "composition": [
         "multi-column-card-grid"
     ],
     "anatomy": [
-        "title",
         "commercial-metadata",
         "item-cta",
-        "visual"
+        "visual",
+        "title"
     ],
     "media": [
         "image-led"
@@ -299,7 +183,68 @@ Cards pattern · composition multi-column-card-grid · anatomy title, commercial
         "left-aligned"
     ],
     "base_quality": 88,
-    "summary": "Cards pattern · composition multi-column-card-grid · anatomy title, commercial-metadata, item-cta, visual · layout flex, bounded-container, grid, split-layout · responsive breakpoint-aware, single-column-mobile · media image-led · surface border, filled-background, shadow · interaction hover-state · alignment centered, left-aligned · evidence 4 source file(s)",
+    "summary": "Services pattern · composition multi-column-card-grid · anatomy commercial-metadata, item-cta, visual, title · layout grid, flex, bounded-container · responsive breakpoint-aware, single-column-mobile · media image-led · surface border, filled-background · interaction hover-state · alignment centered, left-aligned · evidence 10 source file(s)",
+    "quality": 100,
+    "reuse_rule": "Use structural/layout/interaction guidance only. Preserve the current project brand, copy, assets and explicit user instructions."
+}
+```
+
+## Pattern 4: Header design pattern · angel backend
+- Category: design.section.header
+- Quality: 100 · Status: approved
+Header pattern · anatomy brand-logo, primary-navigation · layout grid, flex, bounded-container · responsive breakpoint-aware, single-column-mobile · media image-led · surface border, filled-background · interaction hover-state · alignment centered, left-aligned · evidence 4 source file(s)
+```
+{
+    "type": "header",
+    "framework": "laravel",
+    "evidence": 4,
+    "layout": [
+        "grid",
+        "flex",
+        "bounded-container"
+    ],
+    "responsive": [
+        "breakpoint-aware",
+        "single-column-mobile"
+    ],
+    "motion": [],
+    "interactions": [
+        "hover-state"
+    ],
+    "typography": [
+        "strong-heading",
+        "uppercase-accent"
+    ],
+    "surface": [
+        "border",
+        "filled-background"
+    ],
+    "spacing": [
+        "4px",
+        "24px",
+        "6px",
+        "12px",
+        "40px",
+        "32px"
+    ],
+    "radii": [
+        "6px",
+        "8px"
+    ],
+    "composition": [],
+    "anatomy": [
+        "brand-logo",
+        "primary-navigation"
+    ],
+    "media": [
+        "image-led"
+    ],
+    "alignment": [
+        "centered",
+        "left-aligned"
+    ],
+    "base_quality": 87,
+    "summary": "Header pattern · anatomy brand-logo, primary-navigation · layout grid, flex, bounded-container · responsive breakpoint-aware, single-column-mobile · media image-led · surface border, filled-background · interaction hover-state · alignment centered, left-aligned · evidence 4 source file(s)",
     "quality": 100,
     "reuse_rule": "Use structural/layout/interaction guidance only. Preserve the current project brand, copy, assets and explicit user instructions."
 }
