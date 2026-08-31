@@ -31,6 +31,7 @@ The extension refreshes this file automatically. Prefer its concise state over o
 
 ## Recent files in this workspace/window
 - arkdin-html/index.html
+- arkdin-html/hvac-inspection.html
 
 ## Hard rule
 If a file, goal, screenshot, terminal output, or decision is not connected to this capsule, do not use it for the current task.
