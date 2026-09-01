@@ -1,5 +1,5 @@
-/* ============================================================
-   RQ AIR CONDITIONING — OUR WORKING PROCESS SECTION
+﻿/* ============================================================
+   RQ AIR CONDITIONING â€” OUR WORKING PROCESS SECTION
    rq-work.css  |  Depends on: FontAwesome 6, Outfit font
    ============================================================ */
 
@@ -7,8 +7,8 @@
   --rq-navy:    #061b3e;
   --rq-navy-2:  #082d5c;
   --rq-navy-3:  #0c3971;
-  --rq-orange:  #ff5b0b;
-  --rq-orange-2:#ff7a21;
+  --rq-orange:  #00a859;
+  --rq-orange-2:#33b97a;
   --rq-text:    #17243a;
   --rq-muted:   #667085;
   --rq-line:    #e7ebf1;
@@ -28,7 +28,7 @@
   overflow: hidden;
   background:
     radial-gradient(circle at 88% 15%, rgba(12,57,113,.08), transparent 25%),
-    radial-gradient(circle at 5% 90%,  rgba(255,91,11,.05), transparent 22%),
+    radial-gradient(circle at 5% 90%,  rgba(0,168,89,.05), transparent 22%),
     linear-gradient(180deg, #f8fafc, #f3f6f9);
 }
 
@@ -72,7 +72,7 @@
   left: -160px;
   bottom: -120px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(255,91,11,.08), transparent 70%);
+  background: radial-gradient(circle, rgba(0,168,89,.08), transparent 70%);
   pointer-events: none;
 }
 
@@ -179,8 +179,8 @@
 
 .rq-benefit:hover {
   transform: translateY(-6px);
-  border-color: rgba(255, 91, 11, 0.3);
-  box-shadow: 0 16px 35px rgba(8, 34, 70, 0.08), 0 4px 12px rgba(255, 91, 11, 0.04);
+  border-color: rgba(0, 168, 89, 0.3);
+  box-shadow: 0 16px 35px rgba(8, 34, 70, 0.08), 0 4px 12px rgba(0, 168, 89, 0.04);
 }
 
 .rq-benefit-icon {
@@ -192,8 +192,8 @@
   justify-content: center;
   border-radius: 14px;
   color: var(--rq-orange);
-  background: linear-gradient(135deg, rgba(255, 91, 11, 0.04) 0%, rgba(255, 91, 11, 0.09) 100%);
-  border: 1px solid rgba(255, 91, 11, 0.12);
+  background: linear-gradient(135deg, rgba(0, 168, 89, 0.04) 0%, rgba(0, 168, 89, 0.09) 100%);
+  border: 1px solid rgba(0, 168, 89, 0.12);
   font-size: 20px;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.9);
   transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -201,10 +201,10 @@
 
 .rq-benefit:hover .rq-benefit-icon {
   color: #ffffff;
-  background: linear-gradient(135deg, var(--rq-orange) 0%, #ff7a21 100%);
+  background: linear-gradient(135deg, var(--rq-orange) 0%, #33b97a 100%);
   border-color: var(--rq-orange);
   transform: scale(1.06) rotate(3deg);
-  box-shadow: 0 6px 15px rgba(255, 91, 11, 0.25);
+  box-shadow: 0 6px 15px rgba(0, 168, 89, 0.25);
 }
 
 .rq-benefit h4 {
@@ -282,7 +282,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid rgba(255,107,18,.55);
+  border: 1px solid rgba(51,185,122,.55);
   color: var(--rq-orange);
   font-size: 24px;
 }
@@ -399,7 +399,7 @@
   background: rgba(255, 255, 255, 0.88);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
-  border: 1px solid rgba(255, 91, 11, 0.12);
+  border: 1px solid rgba(0, 168, 89, 0.12);
   box-shadow: 0 15px 40px rgba(8, 34, 70, 0.04);
   transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
   overflow: hidden;
@@ -434,8 +434,8 @@
 
 .rq-step:hover {
   transform: translateY(-10px);
-  box-shadow: 0 30px 65px rgba(8, 34, 70, 0.12), 0 5px 15px rgba(255, 91, 11, 0.04);
-  border-color: rgba(255, 91, 11, 0.45);
+  box-shadow: 0 30px 65px rgba(8, 34, 70, 0.12), 0 5px 15px rgba(0, 168, 89, 0.04);
+  border-color: rgba(0, 168, 89, 0.45);
 }
 
 .rq-step:hover::before {
@@ -462,14 +462,14 @@
   font-weight: 800;
   font-size: 15px;
   font-family: 'Outfit', sans-serif;
-  background: linear-gradient(135deg, var(--rq-orange), #ff7a21);
-  box-shadow: 0 4px 10px rgba(255, 91, 11, 0.25), inset 0 1px 2px rgba(255, 255, 255, 0.45);
+  background: linear-gradient(135deg, var(--rq-orange), #33b97a);
+  box-shadow: 0 4px 10px rgba(0, 168, 89, 0.25), inset 0 1px 2px rgba(255, 255, 255, 0.45);
   transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 .rq-step:hover .rq-step-number {
   transform: translateX(-50%) translateY(-5px);
-  box-shadow: 0 8px 18px rgba(255, 91, 11, 0.4);
+  box-shadow: 0 8px 18px rgba(0, 168, 89, 0.4);
 }
 
 /* step icon */
@@ -483,8 +483,8 @@
   border-radius: 20px;
   font-size: 28px;
   color: var(--rq-orange);
-  background: linear-gradient(135deg, rgba(255, 91, 11, 0.04) 0%, rgba(255, 91, 11, 0.08) 100%);
-  border: 1px solid rgba(255, 91, 11, 0.15);
+  background: linear-gradient(135deg, rgba(0, 168, 89, 0.04) 0%, rgba(0, 168, 89, 0.08) 100%);
+  border: 1px solid rgba(0, 168, 89, 0.15);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.9), 0 8px 20px rgba(6, 27, 62, 0.03);
   transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
@@ -495,10 +495,10 @@
 
 .rq-step:hover .rq-step-icon {
   color: #ffffff;
-  background: linear-gradient(135deg, var(--rq-orange) 0%, #ff7a21 100%);
+  background: linear-gradient(135deg, var(--rq-orange) 0%, #33b97a 100%);
   border-color: var(--rq-orange);
   transform: scale(1.08) rotate(4deg);
-  box-shadow: 0 10px 24px rgba(255, 91, 11, 0.3);
+  box-shadow: 0 10px 24px rgba(0, 168, 89, 0.3);
 }
 
 @keyframes iconBounce {
@@ -546,7 +546,7 @@
   font-size: 12px;
   top: 114px;
   z-index: 6;
-  box-shadow: 0 6px 15px rgba(255, 91, 11, 0.15);
+  box-shadow: 0 6px 15px rgba(0, 168, 89, 0.15);
   transition: all 0.3s ease;
 }
 
@@ -564,7 +564,7 @@
   color: #ffffff;
   border-color: var(--rq-orange);
   transform: scale(1.12);
-  box-shadow: 0 8px 18px rgba(255, 91, 11, 0.3);
+  box-shadow: 0 8px 18px rgba(0, 168, 89, 0.3);
   cursor: pointer;
 }
 
@@ -690,7 +690,7 @@
   align-items: center;
   justify-content: center;
   color: var(--rq-orange);
-  border: 1px solid rgba(255,91,11,.75);
+  border: 1px solid rgba(0,168,89,.75);
   font-size: 26px;
   background: rgba(255,255,255,.025);
 }
@@ -726,14 +726,14 @@
   font-weight: 600;
   font-size: 15px;
   text-decoration: none;
-  background: linear-gradient(135deg, var(--rq-orange), #ff7b20);
-  box-shadow: 0 10px 25px rgba(255,91,11,.23);
+  background: linear-gradient(135deg, var(--rq-orange), #33b97a);
+  box-shadow: 0 10px 25px rgba(0,168,89,.23);
   transition: .3s ease;
 }
 
 .rq-quote-btn:hover {
   transform: translateY(-3px);
-  box-shadow: 0 16px 30px rgba(255,91,11,.3);
+  box-shadow: 0 16px 30px rgba(0,168,89,.3);
   color: #fff;
 }
 
@@ -812,3 +812,6 @@
   .rq-help-left                 { grid-template-columns: 1fr; text-align: center; }
   .rq-help-copy p               { margin: auto; }
 }
+
+
+

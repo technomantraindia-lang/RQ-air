@@ -1,4 +1,4 @@
-/* ========================================================
+﻿/* ========================================================
    CLIENT APPRECIATION SECTION STYLES (MATCH REFERENCE EXACT)
    ======================================================== */
 .rq-appreciation-wrapper {
@@ -43,7 +43,7 @@
 .rq-appr-eyebrow {
   font-size: 14px;
   font-weight: 700;
-  color: #ff5e14;
+  color: #00a859;
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-bottom: 8px;
@@ -57,7 +57,7 @@
   top: -6px;
   width: 40px;
   height: 3px;
-  background-color: #ff5e14;
+  background-color: #00a859;
   border-radius: 2px;
 }
 
@@ -71,7 +71,7 @@
 }
 
 .rq-appr-title .text-orange {
-  color: #ff5e14;
+  color: #00a859;
 }
 
 /* Orange Divider with Dot */
@@ -82,13 +82,13 @@
 }
 .rq-appr-divider .line {
   height: 2px;
-  background-color: #ff5e14;
+  background-color: #00a859;
   width: 140px;
 }
 .rq-appr-divider .dot {
   width: 10px;
   height: 10px;
-  border: 2px solid #ff5e14;
+  border: 2px solid #00a859;
   background-color: #ffffff;
   border-radius: 50%;
   margin-left: 6px;
@@ -126,7 +126,7 @@
 .rq-appr-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 12px 28px rgba(11, 34, 57, 0.12);
-  border-color: #ff5e14;
+  border-color: #00a859;
 }
 
 .rq-appr-card-icon {
@@ -185,7 +185,7 @@
 }
 .rq-appr-quote-content .quote-icon {
   font-size: 32px;
-  color: #ff5e14;
+  color: #00a859;
   line-height: 1;
   font-weight: 900;
   margin-bottom: 6px;
@@ -206,8 +206,8 @@
   gap: 8px;
 }
 .rq-appr-quote-author::before {
-  content: '–';
-  color: #ff5e14;
+  content: 'â€“';
+  color: #00a859;
   font-weight: bold;
 }
 
@@ -234,14 +234,14 @@
   box-shadow: 0 6px 20px rgba(11, 34, 57, 0.25);
 }
 .rq-appr-btn:hover {
-  background-color: #ff5e14;
+  background-color: #00a859;
   transform: translateY(-2px);
   box-shadow: 0 8px 25px rgba(255, 94, 20, 0.35);
 }
 .rq-appr-btn-arrow {
   width: 32px;
   height: 32px;
-  background-color: #ff5e14;
+  background-color: #00a859;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -294,7 +294,7 @@
   height: 80px;
   background: radial-gradient(ellipse at center, #ffffff 0%, #e2e8f0 70%, #cbd5e1 100%);
   border-radius: 50%;
-  border-bottom: 5px solid #ff5e14;
+  border-bottom: 5px solid #00a859;
   box-shadow: 0 20px 40px rgba(11, 34, 57, 0.15);
   z-index: 1;
 }
@@ -312,7 +312,7 @@
 }
 
 .rq-appr-cert-inner-frame {
-  border: 2px solid #ff5e14;
+  border: 2px solid #00a859;
   border-radius: 18px;
   padding: 24px 20px 20px 20px;
   background: #ffffff;
@@ -542,3 +542,6 @@
     grid-template-columns: 1fr;
   }
 }
+
+
+

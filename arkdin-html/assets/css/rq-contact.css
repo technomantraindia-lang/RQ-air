@@ -1,5 +1,5 @@
-/* ============================================================
-   RQ Contact Section — "We're Here to Help You Breathe Better"
+﻿/* ============================================================
+   RQ Contact Section â€” "We're Here to Help You Breathe Better"
    ============================================================ */
 
 .rq-contact {
@@ -52,7 +52,7 @@
 
 .rq-contact-eyebrow {
   margin: 0 0 14px;
-  color: #ff5a00;
+  color: #00a859;
   font-size: 13px;
   font-weight: 700;
   letter-spacing: 2.5px;
@@ -72,7 +72,7 @@
   width: 72px;
   height: 4px;
   border-radius: 4px;
-  background: #ff5a00;
+  background: #00a859;
   margin-bottom: 26px;
 }
 
@@ -111,7 +111,7 @@
 
 .rq-contact-card:hover {
   transform: translateY(-4px);
-  border-color: rgba(255, 90, 0, 0.35);
+  border-color: rgba(0, 168, 89, 0.35);
   box-shadow: 0 16px 34px rgba(14, 42, 71, 0.12);
 }
 
@@ -121,7 +121,7 @@
   height: 50px;
   border-radius: 50%;
   background: linear-gradient(145deg, #16375c, #0e2a47);
-  color: #ff5a00;
+  color: #00a859;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -151,7 +151,7 @@
 }
 
 .rq-contact-card p a:hover {
-  color: #ff5a00;
+  color: #00a859;
 }
 
 /* Follow us */
@@ -188,7 +188,7 @@
 }
 
 .rq-contact-socials a:hover {
-  background: #ff5a00;
+  background: #00a859;
   transform: translateY(-2px);
 }
 
@@ -260,7 +260,7 @@
 
 .rq-contact-form-icon {
   flex: 0 0 auto;
-  color: #ff5a00;
+  color: #00a859;
   font-size: 40px;
   line-height: 1;
 }
@@ -304,7 +304,7 @@
 .rq-contact-form-card input:focus,
 .rq-contact-form-card select:focus,
 .rq-contact-form-card textarea:focus {
-  box-shadow: 0 0 0 3px rgba(255, 90, 0, 0.35);
+  box-shadow: 0 0 0 3px rgba(0, 168, 89, 0.35);
 }
 
 .rq-form-row-2 {
@@ -340,7 +340,7 @@
   justify-content: center;
   gap: 12px;
   width: 100%;
-  background: #ff5a00;
+  background: #00a859;
   color: #ffffff;
   border: none;
   border-radius: 10px;
@@ -433,3 +433,5 @@
     display: none;
   }
 }
+
+

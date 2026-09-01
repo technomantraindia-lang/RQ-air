@@ -1,5 +1,5 @@
-/* =========================================
-   Inquiry Popup Modal — Arkdin AC Services
+﻿/* =========================================
+   Inquiry Popup Modal â€” Arkdin AC Services
    ========================================= */
 
 .rq-inq-overlay {
@@ -44,7 +44,7 @@
 .rq-inq-head {
   position: relative;
   padding: 28px 32px 22px;
-  background: linear-gradient(135deg, #ff5a00 0%, #ff7a1c 100%);
+  background: linear-gradient(135deg, #00a859 0%, #33b97a 100%);
   border-radius: 18px 18px 0 0;
   color: #ffffff;
 }
@@ -123,7 +123,7 @@
 }
 
 .rq-inq-field label .rq-inq-req {
-  color: #ff5a00;
+  color: #00a859;
 }
 
 .rq-inq-field input,
@@ -149,9 +149,9 @@
 .rq-inq-field input:focus,
 .rq-inq-field select:focus,
 .rq-inq-field textarea:focus {
-  border-color: #ff5a00;
+  border-color: #00a859;
   background: #ffffff;
-  box-shadow: 0 0 0 3px rgba(255, 90, 0, 0.15);
+  box-shadow: 0 0 0 3px rgba(0, 168, 89, 0.15);
 }
 
 .rq-inq-submit {
@@ -163,7 +163,7 @@
   padding: 14px 24px;
   border: none;
   border-radius: 999px;
-  background: linear-gradient(135deg, #ff5a00 0%, #ff7a1c 100%);
+  background: linear-gradient(135deg, #00a859 0%, #33b97a 100%);
   color: #ffffff;
   font-size: 15px;
   font-weight: 700;
@@ -174,7 +174,7 @@
 
 .rq-inq-submit:hover {
   transform: translateY(-2px);
-  box-shadow: 0 12px 28px rgba(255, 90, 0, 0.35);
+  box-shadow: 0 12px 28px rgba(0, 168, 89, 0.35);
 }
 
 .rq-inq-note {
@@ -203,8 +203,8 @@
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  background: rgba(255, 90, 0, 0.12);
-  color: #ff5a00;
+  background: rgba(0, 168, 89, 0.12);
+  color: #00a859;
   font-size: 30px;
 }
 
@@ -252,3 +252,5 @@ body.rq-inq-no-scroll {
     font-size: 22px;
   }
 }
+
+

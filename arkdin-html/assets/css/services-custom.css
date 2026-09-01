@@ -1,4 +1,4 @@
-/*--------------------------------------------------------------
+﻿/*--------------------------------------------------------------
 ## Header Navigation Alignment Override
 ----------------------------------------------------------------*/
 @media screen and (min-width: 1200px) {
@@ -24,8 +24,8 @@
 
 .cs_service_card_custom:hover {
   transform: translateY(-8px);
-  box-shadow: 0 15px 40px rgba(255, 85, 0, 0.12);
-  border-color: rgba(255, 85, 0, 0.2);
+  box-shadow: 0 15px 40px rgba(0, 168, 89, 0.12);
+  border-color: rgba(0, 168, 89, 0.2);
 }
 
 .cs_service_card_img {
@@ -55,11 +55,11 @@
   width: 50px !important;
   height: 50px !important;
   border-radius: 50%;
-  background: linear-gradient(135deg, #ff5500 0%, #ff2200 100%);
+  background: linear-gradient(135deg, #00a859 0%, #007b3e 100%);
   display: none !important; /* icon badge removed */
   align-items: center !important;
   justify-content: center !important;
-  box-shadow: 0 4px 12px rgba(255, 85, 0, 0.45);
+  box-shadow: 0 4px 12px rgba(0, 168, 89, 0.45);
   border: 2px solid #ffffff;
   z-index: 2;
   transition: all 0.3s ease;
@@ -67,7 +67,7 @@
 
 .cs_service_card_custom:hover .cs_service_card_icon_badge {
   transform: translateX(-50%) scale(1.1);
-  box-shadow: 0 6px 16px rgba(255, 85, 0, 0.6);
+  box-shadow: 0 6px 16px rgba(0, 168, 89, 0.6);
 }
 
 .cs_service_card_icon_badge i {
@@ -99,7 +99,7 @@
 }
 
 .cs_service_card_custom:hover .cs_service_card_content h3 {
-  color: #ff5500;
+  color: #00a859;
 }
 
 .cs_service_card_content p {
@@ -112,7 +112,7 @@
 .cs_service_card_content a {
   margin-top: auto;
   font-size: 14px;
-  color: #ff5500;
+  color: #00a859;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -140,7 +140,7 @@
   justify-content: space-between;
   margin-top: 60px;
   box-shadow: 0 10px 35px rgba(7, 24, 51, 0.15);
-  border-bottom: 3px solid #ff5500;
+  border-bottom: 3px solid #00a859;
 }
 
 .cs_emergency_strip_left {
@@ -152,12 +152,12 @@
 .cs_emergency_icon_circle {
   width: 50px;
   height: 50px;
-  background: linear-gradient(135deg, #ff5500 0%, #ff2200 100%);
+  background: linear-gradient(135deg, #00a859 0%, #007b3e 100%);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 4px 15px rgba(255, 85, 0, 0.3);
+  box-shadow: 0 4px 15px rgba(0, 168, 89, 0.3);
 }
 
 .cs_emergency_icon_circle i {
@@ -194,7 +194,7 @@
 }
 
 .cs_emergency_phone {
-  color: #ff5500;
+  color: #00a859;
   font-size: 22px;
   font-weight: 700;
   text-decoration: none;
@@ -202,11 +202,11 @@
 }
 
 .cs_emergency_phone:hover {
-  color: #ff7733;
+  color: #00a859;
 }
 
 .cs_emergency_btn_orange {
-  background: #ff5500;
+  background: #00a859;
   color: #ffffff !important;
   font-weight: 600;
   padding: 12px 24px;
@@ -216,13 +216,13 @@
   align-items: center;
   gap: 8px;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(255, 85, 0, 0.2);
+  box-shadow: 0 4px 15px rgba(0, 168, 89, 0.2);
 }
 
 .cs_emergency_btn_orange:hover {
   background: #e04b00;
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(255, 85, 0, 0.35);
+  box-shadow: 0 6px 20px rgba(0, 168, 89, 0.35);
 }
 
 @media (max-width: 991px) {
@@ -286,7 +286,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px dashed #ff5500;
+  border: 2px dashed #00a859;
   transition: all 0.3s ease;
 }
 
@@ -300,7 +300,7 @@
 
 .cs_amc_icon_badge_circle i {
   font-size: 28px;
-  color: #ff5500;
+  color: #00a859;
 }
 
 .cs_comprehensive .cs_amc_icon_badge_circle i {
@@ -327,7 +327,7 @@
 }
 
 .cs_non_comprehensive .cs_amc_card_header {
-  background: #ff5500;
+  background: #00a859;
 }
 
 .cs_amc_card_header h3 {
@@ -355,7 +355,7 @@
 }
 
 .cs_amc_list li i {
-  color: #ff5500;
+  color: #00a859;
   font-size: 14px;
 }
 
@@ -388,7 +388,7 @@
   left: 5%;
   right: 5%;
   height: 3px !important;
-  background: repeating-linear-gradient(to right, rgba(255, 85, 0, 0.35), rgba(255, 85, 0, 0.35) 6px, transparent 6px, transparent 12px) !important;
+  background: repeating-linear-gradient(to right, rgba(0, 168, 89, 0.35), rgba(0, 168, 89, 0.35) 6px, transparent 6px, transparent 12px) !important;
   z-index: 1;
 }
 
@@ -412,25 +412,25 @@
   height: 60px;
   border-radius: 50%;
   background: #ffffff;
-  border: 2px solid rgba(255, 85, 0, 0.2) !important;
+  border: 2px solid rgba(0, 168, 89, 0.2) !important;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
   position: relative;
-  box-shadow: 0 8px 25px rgba(255, 85, 0, 0.06) !important;
+  box-shadow: 0 8px 25px rgba(0, 168, 89, 0.06) !important;
   transition: all 0.3s ease;
 }
 
 .cs_process_step:hover .cs_process_icon_circle {
-  background: linear-gradient(135deg, #ff5500 0%, #ff2200 100%) !important;
-  border-color: #ff5500 !important;
-  box-shadow: 0 10px 25px rgba(255, 85, 0, 0.35) !important;
+  background: linear-gradient(135deg, #00a859 0%, #007b3e 100%) !important;
+  border-color: #00a859 !important;
+  box-shadow: 0 10px 25px rgba(0, 168, 89, 0.35) !important;
 }
 
 .cs_process_icon_circle i {
   font-size: 22px;
-  color: #ff5500 !important; /* Premium orange default icon color */
+  color: #00a859 !important; /* Premium orange default icon color */
   transition: all 0.3s ease;
 }
 
@@ -445,7 +445,7 @@
   right: -8px;
   width: 22px;
   height: 22px;
-  background: #ff5500 !important; /* solid orange step badge */
+  background: #00a859 !important; /* solid orange step badge */
   color: #ffffff !important;
   font-size: 11px;
   font-weight: 700;
@@ -471,7 +471,7 @@
 }
 
 .cs_process_step:hover h4 {
-  color: #ff5500 !important;
+  color: #00a859 !important;
 }
 
 .cs_process_step p {
@@ -511,7 +511,7 @@
   border-radius: 12px;
   padding: 35px 20px;
   margin-top: 60px;
-  border-bottom: 4px solid #ff5500 !important;
+  border-bottom: 4px solid #00a859 !important;
   box-shadow: 0 15px 40px rgba(7, 24, 51, 0.25) !important;
 }
 
@@ -541,12 +541,12 @@
   width: 62px !important;
   height: 62px !important;
   border-radius: 50%;
-  background: linear-gradient(135deg, #ff5500 0%, #ff2200 100%) !important;
+  background: linear-gradient(135deg, #00a859 0%, #007b3e 100%) !important;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 15px;
-  box-shadow: 0 6px 20px rgba(255, 85, 0, 0.4) !important;
+  box-shadow: 0 6px 20px rgba(0, 168, 89, 0.4) !important;
   border: 2px solid rgba(255, 255, 255, 0.1) !important;
   transition: transform 0.3s ease !important;
 }
@@ -598,7 +598,7 @@
   padding: 60px;
   overflow: hidden;
   box-shadow: 0 15px 40px rgba(7, 24, 51, 0.25);
-  border: 1px solid rgba(255, 85, 0, 0.05);
+  border: 1px solid rgba(0, 168, 89, 0.05);
 }
 
 .cs_custom_cta_left {
@@ -648,7 +648,7 @@
   width: 32px;
   height: 32px;
   border-radius: 50%;
-  background: #ff5500;
+  background: #00a859;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -667,7 +667,7 @@
 
 /* CTA Buttons */
 .cs_custom_cta_btn_outline {
-  border: 2px solid #ff5500;
+  border: 2px solid #00a859;
   color: #ffffff !important;
   font-weight: 600;
   padding: 12px 28px;
@@ -680,9 +680,9 @@
 }
 
 .cs_custom_cta_btn_outline:hover {
-  background: #ff5500;
+  background: #00a859;
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(255, 85, 0, 0.35);
+  box-shadow: 0 6px 20px rgba(0, 168, 89, 0.35);
 }
 
 /* Right-side Technician Image */
@@ -733,3 +733,6 @@
     display: none;
   }
 }
+
+
+

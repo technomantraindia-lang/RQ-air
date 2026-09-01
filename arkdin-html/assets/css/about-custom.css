@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap");
+﻿@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap");
 
 /*--------------------------------------------------------------
 ## Custom About Section (Screenshot Request)
@@ -77,7 +77,7 @@
 }
 
 .cs_about_custom_label {
-  color: var(--accent, #ff5500);
+  color: var(--accent, #00a859);
   font-family: var(--body-color-font, "DM Sans", sans-serif);
   font-size: 14px;
   font-weight: 800;
@@ -99,7 +99,7 @@
 .cs_about_custom_divider {
   width: 50px;
   height: 3px;
-  background-color: var(--accent, #ff5500);
+  background-color: var(--accent, #00a859);
   margin-bottom: 28px;
   border-radius: 2px;
 }
@@ -135,15 +135,15 @@
 .cs_about_custom_card:hover {
   transform: translateY(-3px);
   box-shadow: 0 12px 30px rgba(7, 20, 43, 0.07);
-  border-color: rgba(255, 85, 0, 0.15);
+  border-color: rgba(0, 168, 89, 0.15);
 }
 
 .cs_about_custom_card_icon {
   width: 48px;
   height: 48px;
   border-radius: 12px;
-  background-color: rgba(255, 85, 0, 0.06);
-  color: var(--accent, #ff5500);
+  background-color: rgba(0, 168, 89, 0.06);
+  color: var(--accent, #00a859);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -153,7 +153,7 @@
 }
 
 .cs_about_custom_card:hover .cs_about_custom_card_icon {
-  background-color: var(--accent, #ff5500);
+  background-color: var(--accent, #00a859);
   color: #ffffff;
 }
 
@@ -183,7 +183,7 @@
   display: inline-flex;
   align-items: center;
   gap: 14px;
-  background-color: var(--accent, #ff5500);
+  background-color: var(--accent, #00a859);
   color: #ffffff;
   padding: 16px 30px;
   border-radius: 8px;
@@ -193,7 +193,7 @@
   letter-spacing: 0.6px;
   text-decoration: none;
   transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
-  box-shadow: 0 8px 24px rgba(255, 85, 0, 0.22);
+  box-shadow: 0 8px 24px rgba(0, 168, 89, 0.22);
   border: none;
 }
 
@@ -201,7 +201,7 @@
   background-color: #e04b00;
   color: #ffffff;
   transform: translateY(-2px);
-  box-shadow: 0 12px 28px rgba(255, 85, 0, 0.32);
+  box-shadow: 0 12px 28px rgba(0, 168, 89, 0.32);
 }
 
 .cs_about_custom_btn i {
@@ -315,7 +315,7 @@
 
 .cs_stat_icon {
   font-size: 36px;
-  color: var(--accent, #ff5500);
+  color: var(--accent, #00a859);
   flex-shrink: 0;
 }
 
@@ -377,7 +377,7 @@
   bottom: 0;
   width: calc(100% - 15px);
   height: calc(100% - 15px);
-  border: 2px solid var(--accent, #ff5500);
+  border: 2px solid var(--accent, #00a859);
   border-radius: 20px;
   z-index: 1;
 }
@@ -405,7 +405,7 @@
 }
 
 .cs_founder_owner_label {
-  color: var(--accent, #ff5500);
+  color: var(--accent, #00a859);
   font-family: var(--body-color-font, "DM Sans", sans-serif);
   font-size: 13px;
   font-weight: 800;
@@ -435,7 +435,7 @@
 }
 
 .cs_founder_designation {
-  color: var(--accent, #ff5500);
+  color: var(--accent, #00a859);
   font-family: var(--body-color-font, "DM Sans", sans-serif);
   font-size: 13px;
   font-weight: 700;
@@ -446,14 +446,14 @@
 .cs_founder_quote_block {
   position: relative;
   padding: 22px 26px;
-  background-color: rgba(255, 85, 0, 0.025);
-  border-left: 4px solid var(--accent, #ff5500);
+  background-color: rgba(0, 168, 89, 0.025);
+  border-left: 4px solid var(--accent, #00a859);
   border-radius: 0 12px 12px 0;
   margin-bottom: 24px;
 }
 
 .cs_founder_quote_block i.quote_icon {
-  color: var(--accent, #ff5500);
+  color: var(--accent, #00a859);
   font-size: 18px;
   margin-right: 8px;
   font-weight: 900;
@@ -508,14 +508,14 @@
   width: 44px;
   height: 44px;
   border-radius: 10px;
-  background: linear-gradient(135deg, #ff7a47 0%, #ff5500 100%);
+  background: linear-gradient(135deg, #33b97a 0%, #00a859 100%);
   color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 18px;
   flex-shrink: 0;
-  box-shadow: 0 6px 15px rgba(255, 85, 0, 0.3);
+  box-shadow: 0 6px 15px rgba(0, 168, 89, 0.3);
 }
 
 .cs_value_info h4 {
@@ -621,7 +621,7 @@
 }
 
 .cs_custom_cta_subheading {
-  color: var(--accent, #ff5500);
+  color: var(--accent, #00a859);
   font-family: var(--body-color-font, "DM Sans", sans-serif);
   font-size: 13px;
   font-weight: 800;
@@ -648,7 +648,7 @@
 .cs_custom_cta_line {
   width: 40px;
   height: 3px;
-  background-color: var(--accent, #ff5500);
+  background-color: var(--accent, #00a859);
   margin-bottom: 24px;
   border-radius: 2px;
 }
@@ -663,7 +663,7 @@
 }
 
 .cs_custom_cta_desc .orange_text {
-  color: var(--accent, #ff5500);
+  color: var(--accent, #00a859);
   font-weight: 700;
 }
 
@@ -686,8 +686,8 @@
   width: 46px;
   height: 46px;
   border-radius: 50%;
-  border: 1.5px dashed var(--accent, #ff5500);
-  color: var(--accent, #ff5500);
+  border: 1.5px dashed var(--accent, #00a859);
+  color: var(--accent, #00a859);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -715,7 +715,7 @@
 }
 
 .cs_custom_cta_phone_text .orange_text {
-  color: var(--accent, #ff5500);
+  color: var(--accent, #00a859);
 }
 
 /* Buttons Group */
@@ -729,13 +729,13 @@
   display: inline-flex;
   align-items: center;
   gap: 12px;
-  background-color: var(--accent, #ff5500);
+  background-color: var(--accent, #00a859);
   color: #ffffff;
   padding: 10px 22px 10px 14px;
   border-radius: 12px;
   text-decoration: none;
   transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
-  box-shadow: 0 8px 24px rgba(255, 85, 0, 0.25);
+  box-shadow: 0 8px 24px rgba(0, 168, 89, 0.25);
   border: none;
 }
 
@@ -743,7 +743,7 @@
   background-color: #e04b00;
   color: #ffffff;
   transform: translateY(-2px);
-  box-shadow: 0 12px 28px rgba(255, 85, 0, 0.35);
+  box-shadow: 0 12px 28px rgba(0, 168, 89, 0.35);
 }
 
 .cs_btn_icon_white {
@@ -751,7 +751,7 @@
   height: 32px;
   border-radius: 50%;
   background-color: #ffffff;
-  color: var(--accent, #ff5500);
+  color: var(--accent, #00a859);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1026,3 +1026,6 @@
 .cs_card.cs_style_1.cs_type_1 .cs_card_in {
   padding-top: 45px !important;
 }
+
+
+

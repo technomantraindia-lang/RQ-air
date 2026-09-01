@@ -1,4 +1,4 @@
-/*--------------------------------------------------------------
+﻿/*--------------------------------------------------------------
 ## All Color Variable
 ----------------------------------------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
@@ -9,7 +9,7 @@
   --heading-color: #010f34;
   --body-color: #788094;
   --ternary: #88a5ad;
-  --accent: #ff5500;
+  --accent: #00a859;
   --gray: #f5f7fa;
   --border: #ecf1f5;
   --heading-font: "Times New Roman", Times, serif;
@@ -2616,7 +2616,7 @@ label {
 }
 
 .cs_project_info_card {
-  background-color: rgba(255, 85, 0, 0.03);
+  background-color: rgba(0, 168, 89, 0.03);
   padding: 30px;
 }
 @media (max-width: 575px) {
@@ -4580,7 +4580,7 @@ label {
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(110deg, rgba(255, 85, 0, 0.08), transparent 34%),
+    linear-gradient(110deg, rgba(0, 168, 89, 0.08), transparent 34%),
     radial-gradient(circle at 85% 15%, rgba(255, 255, 255, 0.08), transparent 30%),
     rgba(0, 10, 37, 0.7);
   pointer-events: none;
@@ -4632,7 +4632,7 @@ label {
   width: 6px;
   height: 6px;
   background-color: var(--accent);
-  box-shadow: 0 0 0 3px rgba(255, 85, 0, 0.15);
+  box-shadow: 0 0 0 3px rgba(0, 168, 89, 0.15);
 }
 .cs_footer.cs_style_1 .cs_footer_menu_2 a,
 .cs_footer.cs_style_1 .cs_working_hours li {
@@ -4691,7 +4691,7 @@ label {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  background-color: rgba(255, 85, 0, 0.14);
+  background-color: rgba(0, 168, 89, 0.14);
   box-shadow: none;
   color: var(--accent);
   font-family: "Font Awesome 6 Free";
@@ -5776,7 +5776,7 @@ label {
 
 .cs_sidebar_widget {
   border-radius: 20px;
-  background-color: rgba(255, 85, 0, 0.03);
+  background-color: rgba(0, 168, 89, 0.03);
   padding: 40px;
 }
 @media (max-width: 1400px) {
@@ -5926,7 +5926,7 @@ label {
   gap: 10px;
 }
 .cs_post_details_footer .cs_post_tags a {
-  background-color: rgba(255, 85, 0, 0.03);
+  background-color: rgba(0, 168, 89, 0.03);
   padding: 7px 15px;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -6085,7 +6085,7 @@ label {
 
 .comment-list .comment-body {
   position: relative;
-  background-color: rgba(255, 85, 0, 0.03);
+  background-color: rgba(0, 168, 89, 0.03);
   padding: 30px;
   padding-left: 130px;
   border-radius: 10px;
@@ -6575,7 +6575,7 @@ label {
       flex-wrap: wrap;
   gap: 15px;
   padding: 25px 20px;
-  background-color: rgba(255, 85, 0, 0.03);
+  background-color: rgba(0, 168, 89, 0.03);
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
@@ -7440,7 +7440,7 @@ label {
   padding: 16px 18px;
   border-radius: 14px;
   color: #ffffff;
-  background: linear-gradient(135deg, #ff4d12 0%, #ff7a1f 100%);
+  background: linear-gradient(135deg, #00a859 0%, #33b97a 100%);
   box-shadow: 0 18px 36px rgba(255, 82, 13, 0.28);
 }
 
@@ -7632,7 +7632,7 @@ label {
   gap: 3px;
   border-radius: 9px;
   color: #ffffff;
-  background: #ff4d12;
+  background: #00a859;
   box-shadow: 0 16px 35px rgba(255, 77, 18, 0.32);
   text-align: center;
 }
@@ -7657,7 +7657,7 @@ label {
 
 .rq_about_label {
   margin: 0 0 8px;
-  color: #ff4d12;
+  color: #00a859;
   font-size: 13px;
   line-height: 1;
   font-weight: 800;
@@ -7718,7 +7718,7 @@ label {
   padding: 0 14px 0 28px;
   border-radius: 8px;
   color: #ffffff;
-  background: #ff4d12;
+  background: #00a859;
   font-size: 15px;
   font-weight: 800;
   text-decoration: none;
@@ -7737,7 +7737,7 @@ label {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  color: #ff4d12;
+  color: #00a859;
   background: #ffffff;
   font-size: 12px;
 }
@@ -7927,7 +7927,7 @@ label {
   width: 132px;
   min-height: 132px;
   border-radius: 18px;
-  background: linear-gradient(135deg, #ff4d12 0%, #ff7a1f 100%);
+  background: linear-gradient(135deg, #00a859 0%, #33b97a 100%);
   box-shadow: 0 18px 38px rgba(255, 82, 13, 0.30);
 }
 
@@ -7947,7 +7947,7 @@ label {
   width: 34px;
   height: 2px;
   display: inline-block;
-  background: #ff4d12;
+  background: #00a859;
 }
 
 .rq_about_content h2 {
@@ -7988,7 +7988,7 @@ label {
   border-style: solid;
   border-color: rgba(8, 25, 54, 0.18);
   background: #ffffff;
-  color: #ff4d12;
+  color: #00a859;
   box-shadow: 0 10px 24px rgba(8, 25, 54, 0.08);
 }
 
@@ -8457,7 +8457,7 @@ label {
 .services-section {
   --dark: #081a34;
   --text: #4d5a6d;
-  --orange: #ff5a16;
+  --orange: #00a859;
   --light-bg: #f4f8fb;
   --white: #ffffff;
   position: relative;
@@ -8514,7 +8514,7 @@ label {
   align-items: center;
   gap: 14px;
   margin: 0 0 18px;
-  color: var(--orange);
+  color: var(--accent);
   font-size: 15px;
   line-height: 1;
   font-weight: 800;
@@ -8527,7 +8527,7 @@ label {
   width: 38px;
   height: 2px;
   display: inline-block;
-  background: var(--orange);
+  background: var(--accent);
 }
 
 .hero-heading {
@@ -8551,8 +8551,8 @@ label {
   height: 8px;
   margin-top: 25px;
   border-radius: 999px;
-  background: var(--orange);
-  box-shadow: 76px 0 0 -1px var(--orange);
+  background: var(--accent);
+  box-shadow: 76px 0 0 -1px var(--accent);
 }
 
 .hero-image {
@@ -8597,7 +8597,7 @@ label {
 }
 
 .hero-trust-badge i {
-  color: var(--orange);
+  color: var(--accent);
   font-size: 38px;
 }
 
@@ -8609,7 +8609,7 @@ label {
 }
 
 .hero-trust-badge strong {
-  color: var(--orange);
+  color: var(--accent);
 }
 
 .services-grid {
@@ -8648,7 +8648,7 @@ label {
   align-items: center;
   justify-content: center;
   border-radius: 0 0 22px 0;
-  background: var(--orange);
+  background: var(--accent);
   color: var(--white);
   font-size: 18px;
   font-weight: 800;
@@ -8688,7 +8688,7 @@ label {
   align-items: center;
   gap: 10px;
   margin-top: auto;
-  color: var(--orange);
+  color: var(--accent);
   font-size: 14px;
   font-weight: 800;
 }
@@ -8699,7 +8699,7 @@ label {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid var(--orange);
+  border: 2px solid var(--accent);
   border-radius: 50%;
   font-size: 10px;
 }
@@ -8743,7 +8743,7 @@ label {
   justify-content: center;
   flex: 0 0 auto;
   border-radius: 50%;
-  color: var(--orange);
+  color: var(--accent);
   background: var(--white);
   box-shadow: 0 10px 22px rgba(8, 26, 52, 0.12);
   font-size: 24px;
@@ -8772,7 +8772,7 @@ label {
   padding: 0 24px;
   border-radius: 8px;
   color: var(--white);
-  background: var(--orange);
+  background: var(--accent);
   font-size: 15px;
   font-weight: 800;
   white-space: nowrap;
@@ -8871,7 +8871,7 @@ label {
 .services-section {
   --dark: #071833;
   --text: #526074;
-  --orange: #ff5a16;
+  --orange: #00a859;
   --soft-blue: #eef6fb;
   --white: #ffffff;
   padding: 88px 0 92px;
@@ -9175,7 +9175,7 @@ label {
 }
 
 .rq_why_trust i {
-  color: #ff5a16;
+  color: #00a859;
   font-size: 38px;
 }
 
@@ -9188,7 +9188,7 @@ label {
 }
 
 .rq_why_trust strong {
-  color: #ff5a16;
+  color: #00a859;
 }
 
 .rq_quality_seal {
@@ -9215,7 +9215,7 @@ label {
 }
 
 .rq_quality_seal span {
-  color: #ff5a16;
+  color: #00a859;
   font-size: 11px;
   font-weight: 800;
   text-transform: uppercase;
@@ -9232,7 +9232,7 @@ label {
 
 .rq_why_label {
   margin: 0 0 14px;
-  color: #ff5a16;
+  color: #00a859;
   font-size: 15px;
   font-weight: 900;
   letter-spacing: 1px;
@@ -9250,14 +9250,14 @@ label {
   width: 45px;
   height: 7px;
   border-radius: 99px;
-  background: #ff5a16;
+  background: #00a859;
 }
 
 .rq_why_rule i {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: #ff5a16;
+  background: #00a859;
 }
 
 .rq_why_text {
@@ -9317,7 +9317,7 @@ label {
   height: 2px;
   display: block;
   margin-top: 10px;
-  background: #ff5a16;
+  background: #00a859;
 }
 
 .rq_why_card p {
@@ -9346,9 +9346,9 @@ label {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid #ff5a16;
+  border: 2px solid #00a859;
   border-radius: 50%;
-  color: #ff5a16;
+  color: #00a859;
   font-size: 24px;
 }
 
@@ -9375,7 +9375,7 @@ label {
   padding: 0 22px;
   border-radius: 7px;
   color: #ffffff;
-  background: #ff5a16;
+  background: #00a859;
   font-size: 14px;
   font-weight: 800;
 }
@@ -9423,7 +9423,7 @@ label {
 }
 
 .rq_why_stats strong {
-  color: #ff5a16;
+  color: #00a859;
   font-size: 34px;
   line-height: 1;
 }
@@ -9498,7 +9498,7 @@ label {
 }
 
 .rq_quality_seal strong {
-  color: #ff4d12;
+  color: #00a859;
 }
 
 .rq_why_label {
@@ -9512,7 +9512,7 @@ label {
   width: 28px;
   height: 2px;
   border-radius: 99px;
-  background: linear-gradient(90deg, #ff4d12, #ff9a3d);
+  background: linear-gradient(90deg, #00a859, #33b97a);
 }
 
 .rq_why_choose_content h2 {
@@ -9528,7 +9528,7 @@ label {
 
 .rq_why_rule span {
   width: 52px;
-  background: linear-gradient(90deg, #ff4d12, #ff9a3d);
+  background: linear-gradient(90deg, #00a859, #33b97a);
 }
 
 .rq_why_rule i {
@@ -9559,7 +9559,7 @@ label {
   width: 100%;
   height: 3px;
   border-radius: 18px 18px 0 0;
-  background: linear-gradient(90deg, #ff4d12, #ff9a3d);
+  background: linear-gradient(90deg, #00a859, #33b97a);
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 0.3s ease;
@@ -9580,7 +9580,7 @@ label {
   height: 64px;
   margin-bottom: 18px;
   border-radius: 16px;
-  color: #ff4d12;
+  color: #00a859;
   background: linear-gradient(135deg, #fff2ec 0%, #ffe6da 100%);
   box-shadow: inset 0 0 0 1px rgba(255, 82, 13, 0.12), 0 10px 22px -10px rgba(255, 82, 13, 0.45);
   font-size: 26px;
@@ -9589,7 +9589,7 @@ label {
 
 .rq_why_card:hover > i {
   color: #ffffff;
-  background: linear-gradient(135deg, #ff4d12 0%, #ff7a1f 100%);
+  background: linear-gradient(135deg, #00a859 0%, #33b97a 100%);
   transform: translateY(-3px) rotate(6deg);
 }
 
@@ -9599,7 +9599,7 @@ label {
 
 .rq_why_card h3::after {
   width: 52px;
-  background: linear-gradient(90deg, #ff4d12, #ff9a3d);
+  background: linear-gradient(90deg, #00a859, #33b97a);
 }
 
 .rq_why_card p {
@@ -9819,7 +9819,7 @@ label {
   content: "";
   width: 34px;
   height: 2px;
-  background: #ff5a16;
+  background: #00a859;
 }
 
 .rq_why_choose_content h2 {
@@ -9848,7 +9848,7 @@ label {
   width: 54px;
   height: 54px;
   margin-bottom: 16px;
-  color: #ff5a16;
+  color: #00a859;
   background: #fff7f3;
   font-size: 24px;
 }
@@ -9976,7 +9976,7 @@ label {
   content: "\f059";
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
-  color: #ff5a16;
+  color: #00a859;
   font-size: 14px;
   line-height: 1;
 }
@@ -10058,7 +10058,7 @@ label {
 }
 
 .rq_faq_section .cs_accordians.cs_style_1 .cs_accordian.active .cs_accordian_toggle {
-  background: #ff5a16;
+  background: #00a859;
 }
 
 .rq_faq_section .cs_accordians.cs_style_1 .cs_accordian_toggle::before,
@@ -10144,7 +10144,7 @@ label {
 .services-section {
   --dark: #061832;
   --text: #4d5d73;
-  --orange: #ff5a16;
+  --orange: #00a859;
   --aqua: #0bb7c7;
   --white: #ffffff;
   padding: 104px 0 96px;
@@ -10305,7 +10305,7 @@ label {
   width: 48px;
   height: 48px;
   border-radius: 0 0 20px 0;
-  background: linear-gradient(135deg, #ff4d12 0%, #ff7a1f 100%);
+  background: linear-gradient(135deg, #00a859 0%, #33b97a 100%);
   box-shadow: 0 6px 15px rgba(255, 90, 22, 0.2), inset 0 2px 4px rgba(255, 255, 255, 0.3);
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
@@ -10319,7 +10319,7 @@ label {
   width: 58px;
   height: 58px;
   border-radius: 16px;
-  color: var(--orange);
+  color: var(--accent);
   background: linear-gradient(135deg, rgba(255, 90, 22, 0.04) 0%, rgba(255, 90, 22, 0.09) 100%);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.9), 0 8px 20px rgba(6, 24, 50, 0.04);
   border: 1px solid rgba(255, 90, 22, 0.15);
@@ -10328,8 +10328,8 @@ label {
 
 .service-card:hover .card-icon {
   color: #ffffff;
-  background: linear-gradient(135deg, var(--orange) 0%, #ff7a1f 100%);
-  border-color: var(--orange);
+  background: linear-gradient(135deg, var(--accent) 0%, #33b97a 100%);
+  border-color: var(--accent);
   transform: rotate(-6deg) scale(1.08);
   box-shadow: 0 10px 24px rgba(255, 90, 22, 0.3);
 }
@@ -10343,7 +10343,7 @@ label {
 }
 
 .service-card a {
-  color: var(--orange);
+  color: var(--accent);
   text-decoration: none;
 }
 
@@ -10353,8 +10353,8 @@ label {
 
 .service-card:hover a span {
   color: #ffffff;
-  background: var(--orange);
-  border-color: var(--orange);
+  background: var(--accent);
+  border-color: var(--accent);
   transform: translateX(4px) scale(1.08);
   box-shadow: 0 4px 10px rgba(255, 90, 22, 0.3);
 }
@@ -10439,7 +10439,7 @@ label {
   align-items: center;
   gap: 10px;
   margin: 0 0 10px;
-  color: #ff5a16;
+  color: #00a859;
   font-size: 15px;
   font-weight: 900;
   letter-spacing: 1px;
@@ -10451,7 +10451,7 @@ label {
   content: "";
   width: 28px;
   height: 2px;
-  background: #ff5a16;
+  background: #00a859;
 }
 
 .rq_testimonial_heading h2 {
@@ -10506,7 +10506,7 @@ label {
   left: 0;
   right: 0;
   height: 4px;
-  background: linear-gradient(90deg, var(--orange), #ff7a1f);
+  background: linear-gradient(90deg, var(--accent), #33b97a);
   opacity: 0;
   transition: opacity 0.4s ease;
   z-index: 10;
@@ -10554,7 +10554,7 @@ label {
 }
 
 .rq_testimonial_section .slick-dots li.slick-active button {
-  background: #ff5a16;
+  background: #00a859;
   width: 28px;
   box-shadow: 0 2px 8px rgba(255, 90, 22, 0.3);
 }
@@ -10567,7 +10567,7 @@ label {
   justify-content: center;
   margin-right: 18px;
   border-radius: 50%;
-  color: var(--orange);
+  color: var(--accent);
   background: rgba(255, 90, 22, 0.08);
   border: 1px solid rgba(255, 90, 22, 0.15);
   box-shadow: 0 8px 20px rgba(255, 90, 22, 0.06);
@@ -10577,8 +10577,8 @@ label {
 
 .rq_testimonial_card:hover .rq_quote_icon {
   color: #ffffff;
-  background: linear-gradient(135deg, var(--orange) 0%, #ff7a1f 100%);
-  border-color: var(--orange);
+  background: linear-gradient(135deg, var(--accent) 0%, #33b97a 100%);
+  border-color: var(--accent);
   transform: scale(1.08);
   box-shadow: 0 8px 20px rgba(255, 90, 22, 0.25);
 }
@@ -10586,7 +10586,7 @@ label {
 .rq_stars {
   display: inline-flex;
   gap: 3px;
-  color: #ff5a16;
+  color: #00a859;
   font-size: 15px;
   vertical-align: middle;
   text-shadow: 0 0 4px rgba(255, 90, 22, 0.2);
@@ -10604,7 +10604,7 @@ label {
   height: 2.5px;
   border-radius: 2px;
   margin-bottom: 18px;
-  background: linear-gradient(90deg, #ff5a16, #ff7a1f);
+  background: linear-gradient(90deg, #00a859, #33b97a);
   transition: width 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
@@ -10628,7 +10628,7 @@ label {
 }
 
 .rq_testimonial_card:hover .rq_review_footer h3 {
-  color: var(--orange);
+  color: var(--accent);
 }
 
 .rq_review_footer span {
@@ -10651,7 +10651,7 @@ label {
 
 .rq_testimonial_card:hover .rq_review_footer img {
   transform: scale(1.06) rotate(3deg);
-  border-color: var(--orange) !important;
+  border-color: var(--accent) !important;
   box-shadow: 0 12px 28px rgba(255, 90, 22, 0.2);
 }
 
@@ -11154,12 +11154,12 @@ label {
   display: inline-block;
   width: 38px;
   height: 2.5px;
-  background: #FF5E14;
+  background: #00a859;
   border-radius: 2px;
 }
 
 .appreciation_sub_title {
-  color: #FF5E14;
+  color: #00a859;
   font-size: 14px;
   font-weight: 800;
   letter-spacing: 2px;
@@ -11180,7 +11180,7 @@ label {
 }
 
 .appreciation_title .text_highlight_orange {
-  color: #FF5E14;
+  color: #00a859;
 }
 
 /* Description Text */
@@ -11309,7 +11309,7 @@ label {
 }
 
 .appr_btn_primary:hover {
-  background: #FF5E14;
+  background: #00a859;
   box-shadow: 0 8px 22px rgba(255, 94, 20, 0.35);
   transform: translateY(-2px);
 }
@@ -11317,7 +11317,7 @@ label {
 .btn_arrow_circle {
   width: 32px;
   height: 32px;
-  background: #FF5E14;
+  background: #00a859;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -11399,7 +11399,7 @@ label {
   width: 85%;
   height: 40px;
   border-radius: 50%;
-  border-bottom: 3px solid #FF5E14;
+  border-bottom: 3px solid #00a859;
   opacity: 0.6;
 }
 
@@ -11450,8 +11450,8 @@ label {
   left: 0;
   width: 0;
   height: 0;
-  border-left: 34px solid #FF5E14;
-  border-right: 34px solid #FF5E14;
+  border-left: 34px solid #00a859;
+  border-right: 34px solid #00a859;
   border-bottom: 16px solid transparent;
 }
 
@@ -11623,7 +11623,7 @@ label {
 .rq-appr-eyebrow {
   font-size: 14px;
   font-weight: 700;
-  color: #ff5e14;
+  color: #00a859;
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-bottom: 8px;
@@ -11637,7 +11637,7 @@ label {
   top: -6px;
   width: 40px;
   height: 3px;
-  background-color: #ff5e14;
+  background-color: #00a859;
   border-radius: 2px;
 }
 
@@ -11650,7 +11650,7 @@ label {
 }
 
 .rq-appr-title .text-orange {
-  color: #ff5e14;
+  color: #00a859;
 }
 
 /* Orange Divider with Dot */
@@ -11661,13 +11661,13 @@ label {
 }
 .rq-appr-divider .line {
   height: 2px;
-  background-color: #ff5e14;
+  background-color: #00a859;
   width: 140px;
 }
 .rq-appr-divider .dot {
   width: 10px;
   height: 10px;
-  border: 2px solid #ff5e14;
+  border: 2px solid #00a859;
   background-color: #ffffff;
   border-radius: 50%;
   margin-left: 6px;
@@ -11705,7 +11705,7 @@ label {
 .rq-appr-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 12px 28px rgba(11, 34, 57, 0.12);
-  border-color: #ff5e14;
+  border-color: #00a859;
 }
 
 .rq-appr-card-icon {
@@ -11743,7 +11743,7 @@ label {
   height: 175px;
   border-radius: 16px;
   overflow: hidden;
-  border: 3px solid #ff5e14;
+  border: 3px solid #00a859;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
 .rq-appr-quote-image img {
@@ -11761,7 +11761,7 @@ label {
 .rq-appr-quote-icon {
   font-size: 40px;
   line-height: 1;
-  color: #ff5e14;
+  color: #00a859;
   font-family: Georgia, serif;
   font-weight: 900;
   margin-bottom: 6px;
@@ -11804,7 +11804,7 @@ label {
   box-shadow: 0 6px 18px rgba(11, 34, 57, 0.2);
 }
 .rq-appr-btn:hover {
-  background-color: #ff5e14;
+  background-color: #00a859;
   color: #ffffff !important;
   transform: translateY(-2px);
   box-shadow: 0 8px 22px rgba(255, 94, 20, 0.35);
@@ -11813,7 +11813,7 @@ label {
 .rq-appr-btn-arrow {
   width: 26px;
   height: 26px;
-  background-color: #ff5e14;
+  background-color: #00a859;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -11874,7 +11874,7 @@ label {
   height: 80px;
   background: radial-gradient(ellipse at center, #ffffff 0%, #f0f4f8 70%, #dce4ed 100%);
   border-radius: 50%;
-  border-bottom: 6px solid #ff5e14;
+  border-bottom: 6px solid #00a859;
   box-shadow: 0 20px 40px rgba(11, 34, 57, 0.12), inset 0 2px 4px #ffffff;
   z-index: 1;
 }
@@ -12171,8 +12171,8 @@ label {
 
   .rq-feature:hover .rq-feature-icon {
     color: var(--rq-orange);
-    background: linear-gradient(135deg, rgba(255, 90, 0, 0.04) 0%, rgba(255, 90, 0, 0.08) 100%);
-    border-color: rgba(255, 90, 0, 0.15);
+    background: linear-gradient(135deg, rgba(0, 168, 89, 0.04) 0%, rgba(0, 168, 89, 0.08) 100%);
+    border-color: rgba(0, 168, 89, 0.15);
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.9);
     transform: none;
   }
@@ -12330,20 +12330,20 @@ label {
 
 @media (hover: none) and (max-width: 620px) {
   .rq-step:hover {
-    border-color: rgba(255, 91, 11, 0.12);
+    border-color: rgba(0, 168, 89, 0.12);
     box-shadow: 0 10px 28px rgba(8, 34, 70, 0.06);
     transform: none;
   }
 
   .rq-step:hover .rq-step-number {
     transform: none;
-    box-shadow: 0 4px 10px rgba(255, 91, 11, 0.25), inset 0 1px 2px rgba(255, 255, 255, 0.45);
+    box-shadow: 0 4px 10px rgba(0, 168, 89, 0.25), inset 0 1px 2px rgba(255, 255, 255, 0.45);
   }
 
   .rq-step:hover .rq-step-icon {
     color: var(--rq-orange);
-    background: linear-gradient(135deg, rgba(255, 91, 11, 0.04) 0%, rgba(255, 91, 11, 0.08) 100%);
-    border-color: rgba(255, 91, 11, 0.15);
+    background: linear-gradient(135deg, rgba(0, 168, 89, 0.04) 0%, rgba(0, 168, 89, 0.08) 100%);
+    border-color: rgba(0, 168, 89, 0.15);
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.9), 0 8px 20px rgba(6, 27, 62, 0.03);
     transform: none;
   }
@@ -12418,4 +12418,7 @@ label {
     margin: 0 20px;
   }
 }
+
+
+
 

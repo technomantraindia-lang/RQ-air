@@ -1,13 +1,13 @@
-/* ============================================================
-   RQ AIR CONDITIONING — CLIENT APPRECIATION SECTION
+﻿/* ============================================================
+   RQ AIR CONDITIONING â€” CLIENT APPRECIATION SECTION
    rq-ap.css  |  Depends on: FontAwesome 6, Outfit font
    ============================================================ */
 
 :root {
   --rq-ap-navy:    #05265b;
   --rq-ap-dark:    #031b43;
-  --rq-ap-orange:  #ff5a00;
-  --rq-ap-orange2: #ff781c;
+  --rq-ap-orange:  #00a859;
+  --rq-ap-orange2: #33b97a;
   --rq-ap-text:    #17325c;
   --rq-ap-muted:   #526783;
 }
@@ -309,7 +309,7 @@
 }
 
 /* =====================================================
-   RIGHT — LETTER FRAME
+   RIGHT â€” LETTER FRAME
 ===================================================== */
 
 .rq-ap-right {
@@ -578,3 +578,6 @@
   .rq-ap-card i   { font-size: 40px; }
   .rq-ap-right    { min-height: 520px; }
 }
+
+
+

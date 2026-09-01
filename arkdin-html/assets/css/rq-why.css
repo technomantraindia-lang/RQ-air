@@ -1,13 +1,13 @@
-/* ==========================================================
-   RQ AIR CONDITIONING — WHY CHOOSE US SECTION
+﻿/* ==========================================================
+   RQ AIR CONDITIONING â€” WHY CHOOSE US SECTION
    ========================================================== */
 
 :root {
     --rq-navy: #062454;
     --rq-dark: #031b42;
     --rq-blue: #09356c;
-    --rq-orange: #ff5a00;
-    --rq-orange-light: #ff7a1c;
+    --rq-orange: #00a859;
+    --rq-orange-light: #33b97a;
     --rq-text: #132342;
     --rq-muted: #5d6879;
     --rq-white: #ffffff;
@@ -347,7 +347,7 @@
 }
 
 .rq-quality-stamp::after {
-    content: "QUALITY SERVICE   •   YOU CAN TRUST   •";
+    content: "QUALITY SERVICE   â€¢   YOU CAN TRUST   â€¢";
     position: absolute;
     width: 112px;
     height: 112px;
@@ -509,8 +509,8 @@
 
 .rq-feature:hover {
     transform: translateY(-10px);
-    border-color: rgba(255, 90, 0, 0.25);
-    box-shadow: 0 25px 50px rgba(4, 30, 70, 0.08), 0 5px 15px rgba(255, 90, 0, 0.03);
+    border-color: rgba(0, 168, 89, 0.25);
+    box-shadow: 0 25px 50px rgba(4, 30, 70, 0.08), 0 5px 15px rgba(0, 168, 89, 0.03);
 }
 
 .rq-feature:hover::before {
@@ -518,7 +518,7 @@
 }
 
 .rq-feature:hover::after {
-    color: rgba(255, 90, 0, 0.06);
+    color: rgba(0, 168, 89, 0.06);
     transform: translateY(-3px);
 }
 
@@ -531,8 +531,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, rgba(255, 90, 0, 0.04) 0%, rgba(255, 90, 0, 0.08) 100%);
-    border: 1px solid rgba(255, 90, 0, 0.15);
+    background: linear-gradient(135deg, rgba(0, 168, 89, 0.04) 0%, rgba(0, 168, 89, 0.08) 100%);
+    border: 1px solid rgba(0, 168, 89, 0.15);
     color: var(--rq-orange);
     font-size: 24px;
     margin-bottom: 20px;
@@ -562,9 +562,9 @@
 .rq-feature:hover .rq-feature-icon {
     transform: scale(1.08) rotate(4deg);
     color: #ffffff;
-    background: linear-gradient(135deg, var(--rq-orange) 0%, #ff7a1c 100%);
+    background: linear-gradient(135deg, var(--rq-orange) 0%, #33b97a 100%);
     border-color: var(--rq-orange);
-    box-shadow: 0 8px 20px rgba(255, 90, 0, 0.3);
+    box-shadow: 0 8px 20px rgba(0, 168, 89, 0.3);
 }
 
 .rq-feature:hover .rq-feature-icon i {
@@ -622,13 +622,13 @@
 
 @keyframes phonePulse {
     0% {
-        box-shadow: 0 0 0 0 rgba(255, 90, 0, 0.4);
+        box-shadow: 0 0 0 0 rgba(0, 168, 89, 0.4);
     }
     70% {
-        box-shadow: 0 0 0 10px rgba(255, 90, 0, 0);
+        box-shadow: 0 0 0 10px rgba(0, 168, 89, 0);
     }
     100% {
-        box-shadow: 0 0 0 0 rgba(255, 90, 0, 0);
+        box-shadow: 0 0 0 0 rgba(0, 168, 89, 0);
     }
 }
 
@@ -678,9 +678,9 @@
     align-items: center;
     justify-content: center;
     color: var(--rq-orange);
-    border: 2px solid rgba(255, 90, 0, 0.7);
+    border: 2px solid rgba(0, 168, 89, 0.7);
     font-size: 22px;
-    background: rgba(255, 90, 0, 0.05);
+    background: rgba(0, 168, 89, 0.05);
     animation: phonePulse 2s infinite;
 }
 
@@ -720,7 +720,7 @@
 }
 
 .rq-call-btn:hover {
-    background: #ff751a;
+    background: #33b97a;
 }
 
 .rq-phone-number {
@@ -804,7 +804,7 @@
 .rq-stat:hover .rq-stat-icon {
     color: var(--rq-orange-light);
     border-color: var(--rq-orange-light);
-    background: rgba(255, 90, 0, 0.1);
+    background: rgba(0, 168, 89, 0.1);
     transform: scale(1.08);
 }
 
@@ -1048,3 +1048,6 @@
         height: 120px;
     }
 }
+
+
+
