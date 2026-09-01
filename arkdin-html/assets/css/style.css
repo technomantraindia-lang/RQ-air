@@ -12369,3 +12369,53 @@ label {
   height: auto;
   object-fit: contain;
 }
+
+/* Brands Scrolling Section */
+.rq_brands_scrolling {
+  background-color: #f8f9fa;
+  padding: 40px 0;
+  overflow: hidden;
+  position: relative;
+  border-top: 1px solid #eaeaea;
+}
+
+.brands-marquee {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.brands-track {
+  display: inline-block;
+  animation: scroll-brands 20s linear infinite;
+}
+
+.brands-track:hover {
+  animation-play-state: paused;
+}
+
+.brands-track img {
+  height: 60px;
+  width: auto;
+  margin: 0 40px;
+  vertical-align: middle;
+  object-fit: contain;
+  transition: all 0.3s ease;
+}
+
+.brands-track img:hover {
+  transform: scale(1.1);
+}
+
+@keyframes scroll-brands {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@media (max-width: 767px) {
+  .brands-track img {
+    height: 40px;
+    margin: 0 20px;
+  }
+}
+
