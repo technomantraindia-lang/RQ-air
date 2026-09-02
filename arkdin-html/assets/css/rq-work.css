@@ -1,4 +1,4 @@
-﻿/* ============================================================
+/* ============================================================
    RQ AIR CONDITIONING â€” OUR WORKING PROCESS SECTION
    rq-work.css  |  Depends on: FontAwesome 6, Outfit font
    ============================================================ */
@@ -175,6 +175,7 @@
   border: 1px solid rgba(8, 45, 92, 0.05);
   box-shadow: 0 10px 25px rgba(8, 34, 70, 0.03);
   transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  text-align: left;
 }
 
 .rq-benefit:hover {

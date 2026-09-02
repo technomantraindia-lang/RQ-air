@@ -1,4 +1,4 @@
-﻿/*--------------------------------------------------------------
+/*--------------------------------------------------------------
 ## All Color Variable
 ----------------------------------------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
@@ -8647,7 +8647,7 @@ label {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  border-radius: 0 0 22px 0;
+  border-radius: 18px 0 22px 0;
   background: var(--accent);
   color: var(--white);
   font-size: 18px;
@@ -8666,6 +8666,18 @@ label {
   background: var(--white);
   box-shadow: inset 0 0 0 2px #edf1f6, 0 10px 24px rgba(8, 26, 52, 0.08);
   font-size: 30px;
+}
+
+.card-title-wrap {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.card-title-wrap .card-icon {
+  margin-bottom: 0;
+  flex-shrink: 0;
 }
 
 .service-card h3 {
@@ -8838,6 +8850,8 @@ label {
 
   .cta-left {
     justify-content: center;
+    flex-direction: column;
+    gap: 12px;
   }
 }
 
@@ -10474,14 +10488,18 @@ label {
   display: block;
 }
 
+.rq_testimonial_grid .slick-list {
+  margin: 0 -12px;
+}
+
 .rq_testimonial_grid .slick-track {
   display: flex !important;
-  gap: 24px;
 }
 
 .rq_testimonial_grid .slick-slide {
   height: auto;
   outline: none;
+  margin: 0 12px;
 }
 
 .rq_testimonial_card {
@@ -12050,12 +12068,12 @@ label {
   }
 
   .service-card > img {
-    width: calc(100% - 24px);
+    width: 100%;
     height: 260px;
     min-height: 0;
-    margin: 0 12px 14px;
+    margin: 0;
     align-self: stretch;
-    border-radius: 14px;
+    border-radius: 0 0 18px 18px;
     object-fit: cover;
     object-position: center;
   }
@@ -12114,6 +12132,7 @@ label {
     padding: 18px 18px 17px;
     border-radius: 18px;
     box-shadow: 0 10px 28px rgba(4, 30, 70, 0.06);
+    text-align: left;
   }
 
   .rq-feature::before {
@@ -12142,10 +12161,13 @@ label {
 
   .rq-feature h3 {
     grid-area: title;
-    max-width: 210px;
-    margin: 2px 54px 8px 0;
+    margin: 2px 0 8px 0;
     font-size: 18px;
     line-height: 1.22;
+  }
+
+  .rq-feature h3 br {
+    display: none;
   }
 
   .rq-feature-line {

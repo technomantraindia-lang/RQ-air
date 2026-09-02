@@ -5,8 +5,8 @@
 - Workspace: arkdin-air-conditioning-services-php-template-2026-08-14-03-12-21-utc
 - Technology: Not yet detected
 - Active file at refresh: arkdin-html/index.html
-- Local code graph: 32 files · 16 edges · 0 matched flows
-- Refreshed: 2026-08-31T08:46:45.379Z
+- Local code graph: 31 files · 15 edges · 0 matched flows
+- Refreshed: 2026-09-02T04:44:01.148Z
 
 
 
@@ -116,7 +116,6 @@
 - arkdin-html/duct-cleaning-sanitization.html
 - arkdin-html/emergency-support.html
 - arkdin-html/hvac-inspection.html
-- arkdin-html/projects.html
 - arkdin-html/refrigeration-solutions.html
 - arkdin-html/routine-maintenance.html
 - arkdin-html/service-details.html
