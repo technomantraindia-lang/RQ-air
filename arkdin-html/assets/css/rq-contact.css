@@ -412,12 +412,110 @@
 }
 
 @media (max-width: 575px) {
+  .rq-contact {
+    padding: 46px 0 64px;
+    background: linear-gradient(180deg, #f8fbfd 0%, #ffffff 42%, #f4faf8 100%);
+  }
+
+  .rq-contact .container {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  .rq-contact-bg {
+    display: none;
+  }
+
+  .rq-contact-grid {
+    gap: 30px;
+  }
+
+  .rq-contact-info {
+    max-width: 360px;
+    margin: 0 auto;
+  }
+
+  .rq-contact-eyebrow {
+    margin-bottom: 10px;
+    font-size: 12px;
+    line-height: 1.3;
+    letter-spacing: 2px;
+  }
+
   .rq-contact-title {
-    font-size: 29px;
+    max-width: 310px;
+    margin-bottom: 16px;
+    font-size: 31px;
+    line-height: 1.18;
+  }
+
+  .rq-contact-title br {
+    display: none;
+  }
+
+  .rq-contact-underline {
+    width: 54px;
+    height: 3px;
+    margin-bottom: 22px;
+  }
+
+  .rq-contact-desc {
+    margin-bottom: 26px;
+    font-size: 15px;
+    line-height: 1.72;
   }
 
   .rq-contact-cards {
     grid-template-columns: 1fr;
+    gap: 14px;
+    margin-bottom: 22px;
+  }
+
+  .rq-contact-card {
+    gap: 14px;
+    padding: 18px 16px;
+    border-radius: 16px;
+    box-shadow: 0 12px 28px rgba(14, 42, 71, 0.07);
+  }
+
+  .rq-contact-card-icon {
+    width: 44px;
+    height: 44px;
+    flex-basis: 44px;
+    font-size: 16px;
+  }
+
+  .rq-contact-card h3 {
+    margin: 1px 0 6px;
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .rq-contact-card p {
+    font-size: 14px;
+    line-height: 1.55;
+  }
+
+  .rq-contact-card p a {
+    overflow-wrap: anywhere;
+  }
+
+  .rq-contact-trust {
+    align-items: flex-start;
+    gap: 12px;
+    padding: 16px;
+    border-radius: 16px;
+  }
+
+  .rq-contact-trust-icon {
+    width: 38px;
+    height: 38px;
+    font-size: 22px;
+  }
+
+  .rq-contact-trust p {
+    font-size: 13px;
+    line-height: 1.55;
   }
 
   .rq-form-row-2 {
@@ -425,8 +523,83 @@
     gap: 0;
   }
 
+  .rq-contact-form-wrap {
+    max-width: 360px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
   .rq-contact-form-card {
-    padding: 30px 22px 28px;
+    padding: 24px 18px 22px;
+    border-radius: 20px;
+    background: linear-gradient(180deg, #102f50 0%, #071d35 100%);
+    box-shadow: 0 18px 38px rgba(14, 42, 71, 0.22);
+  }
+
+  .rq-contact-form-head {
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+
+  .rq-contact-form-icon {
+    width: 42px;
+    height: 42px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .rq-contact-form-head h3 {
+    margin-bottom: 4px;
+    font-size: 21px;
+    line-height: 1.18;
+  }
+
+  .rq-contact-form-head p {
+    max-width: 235px;
+    font-size: 13px;
+    line-height: 1.45;
+  }
+
+  .rq-contact-form-card input,
+  .rq-contact-form-card select,
+  .rq-contact-form-card textarea {
+    min-height: 52px;
+    margin-bottom: 12px;
+    padding: 14px 16px;
+    border-radius: 12px;
+    font-size: 14px;
+  }
+
+  .rq-contact-form-card select {
+    background-position: right 16px center;
+    padding-right: 42px;
+  }
+
+  .rq-contact-form-card textarea {
+    min-height: 116px;
+  }
+
+  .rq-contact-submit {
+    min-height: 56px;
+    padding: 14px 18px;
+    border-radius: 12px;
+    font-size: 14px;
+    line-height: 1.35;
+    letter-spacing: 1px;
+  }
+
+  .rq-contact-submit svg {
+    flex: 0 0 auto;
+  }
+
+  .rq-form-note {
+    max-width: 260px;
+    margin: 14px auto 0;
+    font-size: 12px;
+    line-height: 1.45;
   }
 
   .rq-contact-dots {

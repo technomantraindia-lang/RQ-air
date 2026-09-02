@@ -10696,6 +10696,14 @@ label {
 }
 /*# sourceMappingURL=style.css.map */
 
+/* Global social media removal */
+.cs_header_social_links_wrap,
+.cs_social_btns.cs_style_1,
+.rq-contact-follow,
+.rq-contact-socials {
+  display: none !important;
+}
+
 /* ===================================================
    RQ HOW TO WORK SECTION
    =================================================== */

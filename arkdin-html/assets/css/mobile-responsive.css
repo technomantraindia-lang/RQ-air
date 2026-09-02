@@ -1497,6 +1497,116 @@
     font-size: 20px;
   }
 
+  .cs_custom_cta_section {
+    padding: 42px 0 58px !important;
+  }
+
+  .cs_custom_cta_section .container {
+    padding-left: 18px !important;
+    padding-right: 18px !important;
+  }
+
+  .cs_custom_cta_card {
+    max-width: 380px;
+    margin: 0 auto;
+    padding: 30px 24px !important;
+    border-radius: 20px !important;
+    text-align: center !important;
+  }
+
+  .cs_custom_cta_left {
+    max-width: 100% !important;
+    text-align: center !important;
+  }
+
+  .cs_custom_cta_subheading {
+    justify-content: center !important;
+    margin-bottom: 16px !important;
+    font-size: 12px !important;
+    letter-spacing: 1px !important;
+  }
+
+  .cs_custom_cta_title,
+  .cs_custom_cta_left h2 {
+    max-width: 300px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    font-size: 29px !important;
+    line-height: 1.18 !important;
+  }
+
+  .cs_custom_cta_line {
+    margin: 18px auto 22px !important;
+  }
+
+  .cs_custom_cta_desc,
+  .cs_custom_cta_left p {
+    max-width: 295px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 24px !important;
+    font-size: 15px !important;
+    line-height: 1.65 !important;
+  }
+
+  .cs_custom_cta_bottom,
+  .cs_custom_cta_btns_wrap {
+    width: 100%;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 18px !important;
+  }
+
+  .cs_custom_cta_phone_block {
+    width: 100%;
+    justify-content: center !important;
+    padding: 14px 12px;
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.055);
+    text-align: left;
+  }
+
+  .cs_custom_cta_phone_icon {
+    width: 42px !important;
+    height: 42px !important;
+    flex: 0 0 42px;
+  }
+
+  .cs_custom_cta_phone_text span {
+    font-size: 12px !important;
+    line-height: 1.25 !important;
+  }
+
+  .cs_custom_cta_phone_text p {
+    font-size: 14px !important;
+    line-height: 1.25 !important;
+  }
+
+  .cs_custom_cta_buttons {
+    width: 100%;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 14px !important;
+  }
+
+  .cs_custom_cta_btn_solid,
+  .cs_custom_cta_phone_box,
+  .cs_custom_cta_btn_outline {
+    width: 100% !important;
+    min-height: 54px;
+    justify-content: center !important;
+    border-radius: 12px !important;
+  }
+
+  .cs_custom_cta_btn_outline {
+    padding: 15px 18px !important;
+  }
+
+  .cs_custom_cta_image,
+  .cs_custom_cta_right_img {
+    display: none !important;
+  }
+
   .rq-ap-tech,
   .rq-hero-photo {
     height: 220px;
