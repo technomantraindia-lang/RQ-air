@@ -44,7 +44,7 @@
       <div class="container">
         <div class="cs_main_header_in">
           <div class="cs_main_header_left">
-            <a class="cs_site_branding" href="index.html"
+            <a class="cs_site_branding" href="../index.html"
               style="display: flex; align-items: center; gap: 10px; text-decoration: none;">
               <img src="assets/img/logo.png" alt="RQ Air Conditioning">
               <span
@@ -55,7 +55,7 @@
           <div class="cs_main_header_center">
             <div class="cs_nav">
               <ul class="cs_nav_list">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="../index.html">Home</a></li>
                 <li><a href="about-us.html">About Us</a></li>
                 <li class="menu-item-has-children"><a href="service.html">Services</a>
                   <ul>
@@ -98,7 +98,7 @@
     <div class="container">
       <h1 class="cs_white_color cs_semibold cs_mb_10 cs_fs_64">HVAC Inspection</h1>
       <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+        <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
         <li class="breadcrumb-item"><a href="service.html">Services</a></li>
         <li class="breadcrumb-item active">HVAC Inspection</li>
       </ol>
@@ -316,11 +316,12 @@
             </div>
             <div class="cs_sidebar_widget">
               <h2 class="cs_sidebar_widget_heading cs_fs_24 cs_semibold">Ask Question</h2>
-              <form action="#">
-                <input type="text" class="cs_form_field cs_mb_15" placeholder="Your Name">
-                <input type="text" class="cs_form_field cs_mb_15" placeholder="Email Address">
-                <input type="text" class="cs_form_field cs_mb_15" placeholder="Phone Number">
-                <textarea cols="30" rows="3" class="cs_form_field cs_mb_15" placeholder="Write Message..."></textarea>
+              <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="b2b52b2c-f20c-42fe-a6d1-2d8b152eedef">
+                <input type="text" name="name" class="cs_form_field cs_mb_15" placeholder="Your Name" required>
+                <input type="email" name="email" class="cs_form_field cs_mb_15" placeholder="Email Address" required>
+                <input type="text" name="phone" class="cs_form_field cs_mb_15" placeholder="Phone Number" required>
+                <textarea name="message" cols="30" rows="3" class="cs_form_field cs_mb_15" placeholder="Write Message..." required></textarea>
                 <button class="cs_btn cs_style_1 w-100" type="submit"><span>Ask Question Now</span></button>
               </form>
             </div>
@@ -408,7 +409,7 @@
                 <span class="cs_white_bg"></span>
               </div>
               <ul class="cs_footer_menu_2">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="../index.html">Home</a></li>
                 <li><a href="about-us.html">About Us</a></li>
                 <li><a href="service.html">Services</a></li>
                 <li><a href="contact.html">Contact</a></li>
@@ -436,7 +437,7 @@
     <div class="cs_footer_bottom cs_accent_bg cs_white_color">
       <div class="container">
         <div class="cs_footer_bottom_in">
-          <div class="cs_footer_copyright">Copyright@ 2024 <a href="index.html">RQ Air Conditioning</a>. All Rights
+          <div class="cs_footer_copyright">Copyright@ 2024 <a href="../index.html">RQ Air Conditioning</a>. All Rights
             Reserved.</div>
           <ul class="cs_footer_menu cs_mp_0">
             <li><a href="contact.html">Support</a></li>
