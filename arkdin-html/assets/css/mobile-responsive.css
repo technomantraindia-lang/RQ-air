@@ -1214,6 +1214,7 @@
   .rq_faq_section {
     padding-left: 16px !important;
     padding-right: 16px !important;
+    margin-bottom: 28px;
   }
 
   .rq_faq_section .container {

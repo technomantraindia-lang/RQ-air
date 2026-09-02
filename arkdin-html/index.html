@@ -1526,7 +1526,7 @@
 
             <!-- Letter Image -->
             <div class="rq-ap-letter-border">
-              <img class="rq-ap-letter-image" id="rqLetterImage" src="assets/img/jsw-appreciation-letter.svg"
+              <img class="rq-ap-letter-image" id="rqLetterImage" src="assets/img/certification/jsw.png"
                 alt="JSW Cement Appreciation Letter">
             </div>
 
@@ -1986,10 +1986,29 @@
       var modalImg = document.getElementById("rqModalImage");
       var modalClose = document.getElementById("rqModalClose");
       var viewBtn = document.getElementById("rqViewLetter");
+      var letterImages = [
+        {
+          src: "assets/img/certification/jsw.png",
+          alt: "JSW Cement Appreciation Letter"
+        },
+        {
+          src: "assets/img/certification/jsw1.png",
+          alt: "JSW Steel Appreciation Letter"
+        }
+      ];
+      var currentLetterIndex = 0;
+
+      function showLetter(index) {
+        if (!letterImg || !letterImages.length) return;
+        currentLetterIndex = index % letterImages.length;
+        letterImg.src = letterImages[currentLetterIndex].src;
+        letterImg.alt = letterImages[currentLetterIndex].alt;
+      }
 
       function openLetter() {
         if (!letterImg || !modal) return;
         modalImg.src = letterImg.src;
+        modalImg.alt = letterImg.alt;
         modal.classList.add("active");
         document.body.style.overflow = "hidden";
       }
@@ -2000,6 +2019,12 @@
         document.body.style.overflow = "";
       }
 
+      showLetter(0);
+      if (letterImages.length > 1) {
+        setInterval(function () {
+          showLetter(currentLetterIndex + 1);
+        }, 3500);
+      }
       if (letterImg) letterImg.addEventListener("click", openLetter);
       if (viewBtn) viewBtn.addEventListener("click", openLetter);
       if (modalClose) modalClose.addEventListener("click", closeLetter);

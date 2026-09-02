@@ -4,9 +4,9 @@
 
 - Workspace: arkdin-air-conditioning-services-php-template-2026-08-14-03-12-21-utc
 - Technology: Not yet detected
-- Active file at refresh: arkdin-html/index.html
+- Active file at refresh: None
 - Local code graph: 31 files · 15 edges · 0 matched flows
-- Refreshed: 2026-09-02T05:16:06.295Z
+- Refreshed: 2026-09-02T06:09:39.505Z
 
 
 
@@ -19,8 +19,8 @@
 - arkdin-html/assets/css/style.css
 
 ## High-value project files
-- arkdin-html/index.html
 - .vscode/settings.json
+- arkdin-html/index.html
 - arkdin-html/assets/css/mobile-responsive.css
 - arkdin-html/assets/js/inquiry-modal.js
 - arkdin-html/assets/css/inquiry-modal.css

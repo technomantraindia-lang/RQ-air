@@ -5,7 +5,7 @@
 - Indexed source files: 31
 - Structural edges: 15
 - Matched end-to-end flows: 0
-- Updated: 2026-09-02T05:16:06.293Z
+- Updated: 2026-09-02T06:09:39.501Z
 
 ## Dependency edges
 - IMPORT arkdin-html/index.html -> arkdin-html/assets/css/bootstrap.min.css, arkdin-html/assets/css/fontawesome.min.css, arkdin-html/assets/css/rq-work.css, arkdin-html/assets/css/rq-why.css, arkdin-html/assets/css/rq-ap.css, arkdin-html/assets/css/animate.css, arkdin-html/assets/css/slick.min.css, arkdin-html/assets/css/style.css

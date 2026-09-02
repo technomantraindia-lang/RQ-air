@@ -9919,6 +9919,7 @@ label {
 .rq_faq_section {
   position: relative;
   overflow: hidden;
+  margin-bottom: 46px;
   background:
     linear-gradient(135deg, #f7fbfe 0%, #ffffff 50%, #eef7fc 100%);
 }
