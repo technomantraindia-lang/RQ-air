@@ -735,8 +735,29 @@
 }
 
 @media (max-width: 575px) {
+  body:has(.cs_service_details) .container {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+
+  body:has(.cs_service_details) .row.cs_gap_y_60 {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  body:has(.cs_service_details) .row.cs_gap_y_60 > [class*="col-"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  body:has(.cs_service_details) .cs_pr_30 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
   .cs_service_details {
-    max-width: 370px;
+    width: 100%;
+    max-width: 100%;
     margin: 0 auto;
     padding: 18px 16px 24px !important;
     border: 1px solid #edf2f6;

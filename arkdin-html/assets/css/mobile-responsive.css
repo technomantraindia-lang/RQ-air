@@ -691,7 +691,7 @@
   }
 
   .cs_menu_toggle {
-    color: #ffffff;
+    color: var(--heading-color);
   }
 
   .cs_nav .cs_nav_list {
