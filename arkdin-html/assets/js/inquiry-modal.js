@@ -128,6 +128,7 @@
   }
 
   /* ---------- Submit ---------- */
+    /* ---------- Submit ---------- */
   function handleSubmit(e) {
     e.preventDefault();
     var form = e.target;
@@ -135,15 +136,42 @@
       form.reportValidity ? form.reportValidity() : null;
       return;
     }
-    // Static template: simulate submission. Replace with fetch() to a backend endpoint when available.
-    var name = document.getElementById('rqInqName').value.trim();
-    document.querySelector('#rqInqSuccess p').textContent =
-      'Thank you' + (name ? ', ' + name : '') + '! Our team will contact you within 24 hours.';
-    form.classList.add('is-hidden');
-    document.getElementById('rqInqSuccess').classList.add('is-visible');
+    
+    // Add Web3Forms key
+    var formData = new FormData(form);
+    formData.append("access_key", "b2b52b2c-f20c-42fe-a6d1-2d8b152eedef");
+    
+    var submitBtn = form.querySelector('button[type="submit"]');
+    var originalText = submitBtn.innerHTML;
+    submitBtn.innerHTML = 'Sending...';
+    submitBtn.disabled = true;
+
+    fetch('https://api.web3forms.com/submit', {
+      method: 'POST',
+      body: formData
+    })
+    .then(function(response) { return response.json(); })
+    .then(function(json) {
+      if (json.success) {
+        var name = document.getElementById('rqInqName').value.trim();
+        document.querySelector('#rqInqSuccess p').textContent =
+          'Thank you' + (name ? ', ' + name : '') + '! Our team will contact you within 24 hours.';
+        form.classList.add('is-hidden');
+        document.getElementById('rqInqSuccess').classList.add('is-visible');
+      } else {
+        alert("Something went wrong: " + json.message);
+      }
+    })
+    .catch(function(error) {
+      alert("Error submitting the form.");
+    })
+    .finally(function() {
+      submitBtn.innerHTML = originalText;
+      submitBtn.disabled = false;
+    });
   }
 
-  /* ---------- Bind Inquire buttons ---------- */
+      /* ---------- Bind Inquire buttons ---------- */
   function isInquireLink(a) {
     var text = (a.textContent || '').trim().toLowerCase();
     return text === 'inquire' || text === 'enquire';
@@ -161,7 +189,6 @@
       });
     });
   }
-
   /* Derive current service from page title, e.g. "AC Installation - ..." */
   function currentServiceName() {
     var t = (document.title || '').split('-')[0].trim();

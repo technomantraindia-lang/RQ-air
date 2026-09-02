@@ -260,3 +260,67 @@
   }
 
 })(jQuery);
+
+  // Global Web3Forms AJAX Submission Handler
+  document.addEventListener('submit', function(e) {
+    var form = e.target;
+    
+    // Check if it's a web3forms form
+    if (form.getAttribute('action') === 'https://api.web3forms.com/submit') {
+      e.preventDefault();
+      
+      var submitBtn = form.querySelector('button[type="submit"]');
+      var originalBtnText = submitBtn ? submitBtn.innerHTML : '';
+      if (submitBtn) {
+        submitBtn.innerHTML = 'Sending...';
+        submitBtn.disabled = true;
+      }
+      
+      var formData = new FormData(form);
+      
+      fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        body: formData
+      })
+      .then(function(response) { return response.json(); })
+      .then(function(json) {
+        if (json.success) {
+          var nameField = form.querySelector('[name="name"]');
+          var name = nameField ? nameField.value.trim() : '';
+          
+          // Show beautiful popup
+          showSuccessPopup(name);
+          form.reset();
+        } else {
+          alert('Something went wrong: ' + json.message);
+        }
+      })
+      .catch(function(error) {
+        alert('Error submitting the form.');
+      })
+      .finally(function() {
+        if (submitBtn) {
+          submitBtn.innerHTML = originalBtnText;
+          submitBtn.disabled = false;
+        }
+      });
+    }
+  });
+
+  function showSuccessPopup(name) {
+    var existingOverlay = document.getElementById('rqGlobalSuccessOverlay');
+    if (existingOverlay) {
+      existingOverlay.remove();
+    }
+    var html = '<div class="rq-inq-overlay is-open" id="rqGlobalSuccessOverlay" style="z-index:99999; display: flex; align-items: center; justify-content: center; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.6);">' +
+               '  <div class="rq-inq-modal" style="background: #fff; border-radius: 20px; padding: 40px; max-width: 400px; width: 90%; text-align: center; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">' +
+               '    <div style="font-size: 50px; color: #1fb141; margin-bottom: 20px;"><i class="fa-solid fa-circle-check"></i></div>' +
+               '    <h3 style="margin-bottom: 15px; font-size: 26px; color: #03122b; font-weight: 700;">Message Sent!</h3>' +
+               '    <p style="color: #4b5563; margin-bottom: 25px; line-height: 1.6; font-size: 16px;">Thank you' + (name ? ' <b>' + name + '</b>' : '') + '! We have received your message and will contact you shortly.</p>' +
+               '    <button type="button" onclick="document.getElementById(\'rqGlobalSuccessOverlay\').remove()" style="background: #1fb141; color: #fff; border: none; padding: 12px 25px; font-size: 16px; border-radius: 30px; cursor: pointer; font-weight: 600; width: 100%; transition: all 0.3s ease;">Close</button>' +
+               '  </div>' +
+               '</div>';
+    var div = document.createElement('div');
+    div.innerHTML = html;
+    document.body.appendChild(div.firstElementChild);
+  }
