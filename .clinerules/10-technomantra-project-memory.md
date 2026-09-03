@@ -3,27 +3,40 @@
 > This is a persistent locator map, not a claim that file contents are current. Read each target only once per task and rely on normal invalidation after edits.
 
 - Workspace: arkdin-air-conditioning-services-php-template-2026-08-14-03-12-21-utc
-- Technology: Not yet detected
+- Technology: HTML/CSS/JavaScript
 - Active file at refresh: None
-- Local code graph: 31 files · 15 edges · 0 matched flows
-- Refreshed: 2026-09-02T06:23:56.498Z
+- Local code graph: 31 files · 17 edges · 0 matched flows
+- Refreshed: 2026-09-03T06:52:49.474Z
 
+## Framework Intelligence (V4.7.8)
+- Profiles: html-static
 
+### Entry / bootstrap candidates
+- index.html
+
+### Frontend API contracts
+- arkdin-html/assets/js/inquiry-modal.js: POST /submit
+- arkdin-html/assets/js/main.js: POST /submit
+
+### Styles
+- arkdin-html/assets/css/style.css
+- arkdin-html/assets/css/about-custom.css
+- arkdin-html/assets/css/animate.css
+- arkdin-html/assets/css/appreciation-section.css
+- arkdin-html/assets/css/bootstrap.min.css
+- arkdin-html/assets/css/fontawesome.min.css
+- arkdin-html/assets/css/inquiry-modal.css
+- arkdin-html/assets/css/mobile-responsive.css
+- arkdin-html/assets/css/rq-ap.css
+- arkdin-html/assets/css/rq-contact.css
+- arkdin-html/assets/css/rq-why.css
+- arkdin-html/assets/css/rq-work.css
 
 ## Recently edited files
-- .vscode/settings.json
-- arkdin-html/index.html
-- arkdin-html/assets/css/mobile-responsive.css
-- arkdin-html/assets/js/inquiry-modal.js
-- arkdin-html/assets/css/inquiry-modal.css
-- arkdin-html/assets/css/style.css
+- None recorded yet
 
 ## High-value project files
-- .vscode/settings.json
-- arkdin-html/index.html
-- arkdin-html/assets/css/mobile-responsive.css
-- arkdin-html/assets/js/inquiry-modal.js
-- arkdin-html/assets/css/inquiry-modal.css
+- index.html
 - arkdin-html/assets/css/style.css
 - .clinerules/05-technomantra-execution-mode.md
 - .clinerules/06-technomantra-developer-mode.md
@@ -39,6 +52,7 @@
 - .clinerules/90-technomantra-selected-agent.md
 - .clinerules/technomantra-developer-learning.md
 - .clinerules/technomantra-team-learning.md
+- .vscode/settings.json
 - .vscode/technomantra-project.json
 - arkdin-html/about-us.html
 - arkdin-html/ac-installation.html
@@ -50,6 +64,8 @@
 - arkdin-html/assets/css/appreciation-section.css
 - arkdin-html/assets/css/bootstrap.min.css
 - arkdin-html/assets/css/fontawesome.min.css
+- arkdin-html/assets/css/inquiry-modal.css
+- arkdin-html/assets/css/mobile-responsive.css
 - arkdin-html/assets/css/rq-ap.css
 - arkdin-html/assets/css/rq-contact.css
 - arkdin-html/assets/css/rq-why.css
@@ -99,15 +115,16 @@
 - arkdin-html/assets/img/logo.svg
 - arkdin-html/assets/img/preloader_icon.svg
 - arkdin-html/assets/img/service_bg_1.svg
+- arkdin-html/assets/img/service_bg_2.svg
 
 ## Additional indexed files
-- arkdin-html/assets/img/service_bg_2.svg
 - arkdin-html/assets/img/service_shape_1.svg
 - arkdin-html/assets/img/shapes/price_shape.svg
 - arkdin-html/assets/img/shapes/service_shape_1.svg
 - arkdin-html/assets/img/technician-maintenance.svg
 - arkdin-html/assets/img/testimonial_bg.svg
 - arkdin-html/assets/img/why_chose_us_img_3.svg
+- arkdin-html/assets/js/inquiry-modal.js
 - arkdin-html/assets/js/jquery-3.6.0.min.js
 - arkdin-html/assets/js/jquery.slick.min.js
 - arkdin-html/assets/js/main.js

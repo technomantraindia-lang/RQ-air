@@ -394,8 +394,8 @@
 
 .rq-ap-ribbon {
   position: absolute;
-  right: 28px;
-  top: -7px;
+  right: -8px;
+  top: -34px;
   width: 115px;
   z-index: 9;
   text-align: center;
@@ -567,7 +567,7 @@
   .rq-ap-letter-frame { left: 0; right: 0; padding: 12px; }
   .rq-ap-letter-border { padding: 4px; }
   .rq-ap-letter-image { max-height: 560px; padding: 10px; }
-  .rq-ap-ribbon   { width: 82px; right: 12px; }
+  .rq-ap-ribbon   { width: 82px; right: -4px; top: -30px; }
   .rq-ap-ribbon-head { font-size: 11px; padding: 12px 4px 27px; }
   .rq-ap-medal    { width: 65px; height: 65px; font-size: 28px; }
   .rq-ap-tail     { width: 52px; height: 44px; }

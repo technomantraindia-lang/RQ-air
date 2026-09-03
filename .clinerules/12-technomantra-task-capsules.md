@@ -13,25 +13,23 @@ This workspace uses task capsules so developers can run parallel development wit
 ## Active capsule snapshot
 The extension refreshes this file automatically. Prefer its concise state over old chat history when resuming.
 
-- Capsule ID: tm-cap-2e64b94bcfe204291000bafe
+- Capsule ID: tm-cap-1e3e24ca765bba0918e2dcf2
 - Isolation: task-capsule-v411
-- Workspace ID: tm-ws-9ec2c53ddfaeafe7c4aa5c13
-- Window ID: tm-win-811e29d5eb874d10f32bd04d
+- Workspace ID: tm-ws-5a21f35be60b4b9bcbd9a8f0
+- Window ID: tm-win-096edb3d14d92b30afbdabe1
 - Project: arkdin-air-conditioning-services-php-template-2026-08-14-03-12-21-utc
-- Framework: 
+- Framework: html-static
 - Developer mode: smart
 - Model mode: eco
-- Active file: arkdin-html/index.html
+- Active file: index.html
 - Objective: Current developer prompt in this workspace/window only.
 - Blocker: none
 - Next action: Inspect current prompt and workspace evidence before editing.
 
 ## Touched files in this capsule
-- .vscode/settings.json
 
 ## Recent files in this workspace/window
-- arkdin-html/index.html
-- arkdin-html/hvac-inspection.html
+- index.html
 
 ## Hard rule
 If a file, goal, screenshot, terminal output, or decision is not connected to this capsule, do not use it for the current task.
